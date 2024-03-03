@@ -1,0 +1,18 @@
+.navbar{
+    margin-right: 20px;
+    text-align: center;
+    
+}
+.inside a{
+    text-align: left;
+    text-decoration: none;
+}
+.vl{
+    border-left: 6px solid green;
+    height: 500px; 
+  }
+  .options video{
+    position: absolute;
+    top: 280px;
+    right: 10px;
+  }
