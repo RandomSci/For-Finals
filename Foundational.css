@@ -1,0 +1,52 @@
+.a1{
+    position: absolute;
+    left: 10rem;
+}
+.a2{
+    position: absolute;
+    left: 43rem;
+}
+.a3{
+    position: absolute;
+    left: 76rem;
+}
+.a4{
+    position: absolute;
+    left: 10rem;
+    top: 37rem;
+}
+.a5{
+    position: absolute;
+    left: 43rem;
+    top: 37rem;
+}
+.a6{
+    position: absolute;
+    left: 76rem;
+    top: 37rem;
+}
+.aa { /* For h1's in buttons*/
+    text-align: left;
+    color: blue;
+    cursor: pointer;
+}
+.tablee{
+    position: absolute;
+    top: 70rem;
+    left: 15rem;
+    text-align: left;
+    width: 90rem ;
+}
+.tablee a{
+    text-decoration: none;
+}
+.nn{
+    color: white;
+    border-top: 2px;
+    border-left: 3px;
+    border-bottom: 2px;
+    border-right: 3px;
+    border-radius: 2px;
+    border-width: 10px;
+    border-color: skyblue;
+}
