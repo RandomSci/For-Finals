@@ -5,22 +5,48 @@ body{
     margin-right: 20px;
     position: absolute;
 }
-.topw{
+.c1a{
+  top: 1px;
+  text-decoration: none;
   position: absolute;
-  justify-content: space-between;
-  left: 45rem;
-  top: 2.2rem;
+  color: rgb(34, 96, 230); 
 }
-.topw a{
+.c11{
   text-decoration: none;
   font-size: large;
   font-family: cursive;
   color: rgb(41, 127, 240);
+  position: absolute;
+  text-decoration: none; 
+  top: 2.2rem;
+  left: 600px;
+}
+.c12{
+  text-decoration: none;
+  font-size: large;
+  font-family: cursive;
+  color: rgb(41, 127, 240);
+  text-decoration: none; 
+  position: absolute; 
+  left: 900px; 
+  top: 2.2rem;
+}
+.c13{
+  text-decoration: none;
+  font-size: large;
+  font-family: cursive;
+  color: rgb(41, 127, 240);
+  text-decoration: none; 
+  position: absolute; 
+  left: 1200px; 
+  top: 2.2rem;
 }
 .ff {
   position: absolute;
   right: 25rem;
-  top: 5.9rem;
+  top: 7rem;
+  height: 420px; 
+  width: 830px; 
 }
 .ww{
   position: absolute;
@@ -56,6 +82,10 @@ body{
   cursor: pointer;
   padding-right: 60px;
 }
+.btn-blww:hover{
+  scale: 1.1;
+}
+
 .btn-blw{
   position: absolute;
   left: 18rem;
@@ -67,31 +97,92 @@ body{
   border: none;
   padding-right: 60px;
 }
+.btn-blw:hover{
+  scale: 1.1;
+}
 .theleft{
   position: absolute;
-  right: 16rem;
+  right: 13rem;
   top: 5rem;
   color: #095ece;
 }
 .kko{
   position: absolute;
-  top: 40rem;
+  left: 15rem;
+  top: 65rem;
   cursor: pointer;
 }
 .a1 {
-  width: 25rem;
+  width: 15rem;
   margin-left: 8rem;
-  border: 1px solid #095ece;
+  border: none;
+  border-radius: 30%;
+  background-color: rgb(113, 243, 243);
 }
 .a2 {
-  width: 25rem;
-  border: 1px solid #095ece;
+  width: 15rem;
+  border: none;
+  border-radius: 30%;
+  background-color: rgb(66, 175, 226);
 }
 .a3 {
-  width: 25rem;
-  border: 1px solid #095ece;
+  width: 15rem;
+  border: none;
+  border-radius: 30%;
+  background-color: rgb(64, 135, 241);
 }
 .a4 {
-  width: 25rem;
-  border: 1px solid #095ece;
+  width: 15rem;
+  border: none;
+  border-radius: 30%;
+  background-color: rgb(104, 156, 233);
+}
+.a5 {
+  width: 15rem;
+  border: none;
+  border-radius: 30%;
+  background-color: rgb(122, 238, 238);
+}
+.cntlnk1{
+  position: absolute; 
+  left: 50rem; 
+  top: 45rem; 
+  font-family: monospace; 
+  font-size: 20px;
+  text-decoration: none;
+  color: #095ece;
+}
+.cntlnk1:hover{
+  scale: 1.1;
+}
+.cntlnk2{
+  position: absolute; 
+  left: 50rem; 
+  top: 47rem; 
+  font-family: monospace; 
+  font-size: 20px; 
+  text-decoration: none;
+  color: #095ece;;
+}
+.cntlnk2:hover{
+  scale: 1.1;
+}
+.lastt{
+  position: absolute;
+  top: 100rem;
+}
+.tablee{
+  position: absolute;
+  top: 100rem;
+  left: 23rem;
+  text-align: left;
+  width: 90rem;
+  padding-bottom: 10rem;
+}
+.tablee a{
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: monospace;
+  font-size: larger;
+  font-weight:900;
 }
