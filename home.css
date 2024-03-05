@@ -1,18 +1,97 @@
+body{
+  background-color: aliceblue;
+}
 .navbar{
     margin-right: 20px;
-    text-align: center;
-    
-}
-.inside a{
-    text-align: left;
-    text-decoration: none;
-}
-.vl{
-    border-left: 6px solid green;
-    height: 500px; 
-  }
-  .options video{
     position: absolute;
-    top: 280px;
-    right: 10px;
-  }
+}
+.topw{
+  position: absolute;
+  justify-content: space-between;
+  left: 45rem;
+  top: 2.2rem;
+}
+.topw a{
+  text-decoration: none;
+  font-size: large;
+  font-family: cursive;
+  color: rgb(41, 127, 240);
+}
+.ff {
+  position: absolute;
+  right: 25rem;
+  top: 5.9rem;
+}
+.ww{
+  position: absolute;
+  font-size: 40px;
+  font-family:fantasy;
+  top: 4rem;
+  left: 6rem;
+  color: rgb(41, 127, 240);
+}
+.wwe{
+  position: absolute;
+  font-size: 40px;
+  font-family:fantasy;
+  top: 7rem;
+  left: 6rem;
+  color: rgb(41, 127, 240);
+}
+.xx{
+  position: absolute;
+  top: 20rem;
+  left: 6rem;
+  font-size: 25px;
+  font-family: monospace;
+}
+.btn-blww{
+  position: absolute;
+  left: 6rem;
+  top: 30rem;
+  background-color: #095ece;
+  color: white;
+  padding: 10px 30px;
+  border: none;
+  cursor: pointer;
+  padding-right: 60px;
+}
+.btn-blw{
+  position: absolute;
+  left: 18rem;
+  top: 30rem;
+  background-color: #095ece;
+  padding: 10px 30px;
+  color: white;
+  cursor: pointer;
+  border: none;
+  padding-right: 60px;
+}
+.theleft{
+  position: absolute;
+  right: 16rem;
+  top: 5rem;
+  color: #095ece;
+}
+.kko{
+  position: absolute;
+  top: 40rem;
+  cursor: pointer;
+}
+.a1 {
+  width: 25rem;
+  margin-left: 8rem;
+  border: 1px solid #095ece;
+}
+.a2 {
+  width: 25rem;
+  border: 1px solid #095ece;
+}
+.a3 {
+  width: 25rem;
+  border: 1px solid #095ece;
+}
+.a4 {
+  width: 25rem;
+  border: 1px solid #095ece;
+}
