@@ -1,52 +1,77 @@
+body{
+    background-color: aliceblue;
+}
+.toppp{ 
+    text-align: left;
+}
 .a1{
     position: absolute;
     left: 10rem;
+    background-color: white;
+    border: 0px;
 }
 .a2{
     position: absolute;
-    left: 43rem;
+    left: 42rem;
+    background-color: white;
+    border: 0px;
 }
 .a3{
     position: absolute;
-    left: 76rem;
+    left: 74rem;
+    background-color: white;
+    border: 0px;
 }
 .a4{
     position: absolute;
     left: 10rem;
-    top: 37rem;
+    top: 40rem;
+    background-color: white;
+    border: 0px;
 }
 .a5{
     position: absolute;
-    left: 43rem;
-    top: 37rem;
+    left: 42rem;
+    top: 40rem;
+    background-color: white;
+    border: 0px;
+    width: fit-content;
 }
 .a6{
     position: absolute;
-    left: 76rem;
-    top: 37rem;
+    left: 74rem;
+    top: 40rem;
+    background-color: white;
+    border: 0px;
 }
 .aa { /* For h1's in buttons*/
     text-align: left;
     color: blue;
     cursor: pointer;
 }
+.nn{
+    color: white;
+    border: 1px solid black;
+    padding: 2px;
+    width: fit-content;
+    background-color: blue;
+    border-radius: 4px;
+}
+.p-a1{
+    text-align: left;
+    font-size: medium;
+}
 .tablee{
     position: absolute;
     top: 70rem;
     left: 15rem;
     text-align: left;
-    width: 90rem ;
+    width: 90rem;
 }
 .tablee a{
     text-decoration: none;
-}
-.nn{
-    color: white;
-    border-top: 2px;
-    border-left: 3px;
-    border-bottom: 2px;
-    border-right: 3px;
-    border-radius: 2px;
-    border-width: 10px;
-    border-color: skyblue;
+    text-transform: uppercase;
+    font-family: monospace;
+    font-size: larger;
+    font-weight:900;
 }
