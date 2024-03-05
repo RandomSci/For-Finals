@@ -1,6 +1,9 @@
 body{
     background-color: aliceblue;
 }
+.seperate{
+    position: fixed;
+}
 .toppp{ 
     text-align: left;
 }
