@@ -1,6 +1,66 @@
 body{
     background-color: aliceblue;
 }
-.ssa{
+.topp{
+    position: relative;
     text-align: left;
+    left: 25rem;
+    top: 5rem;
+}
+.Picture{
+    position:absolute;
+    top: 10rem;
+    right: 30rem;
+    height: 135px;
+    width: 135px;
+}
+.hlgthr{
+    position: absolute;
+    left: 25.4rem;
+    color: rgb(11, 108, 219);
+}
+.xprnc{
+    position: absolute;
+    top: 27rem;
+    left: 25.4rem;
+}
+.smallslash{
+    color: red;
+    font-size: large;
+}
+.educ{
+    position: absolute;
+    top: 42rem;
+    left: 25.4rem;
+}
+.proj{
+    position: absolute;
+    top: 62rem;
+    left: 25.4rem;
+}
+.skills{
+    position: absolute;
+    top: 27rem;
+    right: 32rem;
+}
+.skills li{
+    color: rgb(221, 98, 16);
+}
+.rightt{
+    position: absolute;
+    right: 41rem;
+    color: rgb(11, 108, 219);
+}
+.ww{
+    position: absolute;
+    right: 38rem;
+    color: rgb(11, 108, 219);
+}
+.lang{
+    position: absolute;
+    top: 42rem;
+    right: 38.5rem;
+}
+.lang li{
+    color: rgb(221, 98, 16);
 }

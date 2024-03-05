@@ -1,0 +1,65 @@
+body{
+    background-color: aliceblue;
+}
+.seperate{
+    position: fixed;
+}
+.toppp{ 
+    text-align: left;
+}
+.a1{
+    position: absolute;
+    left: 10rem;
+    background-color: white;
+    border: 0px;
+}
+.a2{
+    position: absolute;
+    left: 42rem;
+    background-color: white;
+    border: 0px;
+}
+.a3{
+    position: absolute;
+    left: 74rem;
+    background-color: white;
+    border: 0px;
+}
+.a4{
+    position: absolute;
+    left: 10rem;
+    top: 40rem;
+    background-color: white;
+    border: 0px;
+}
+.a5{
+    position: absolute;
+    left: 42rem;
+    top: 40rem;
+    background-color: white;
+    border: 0px;
+    width: fit-content;
+}
+.aa { /* For h1's in buttons*/
+    text-align: left;
+    color: blue;
+    cursor: pointer;
+}
+.p-a1{
+    text-align: left;
+    font-size: medium;
+}
+.tablee{
+    position: absolute;
+    top: 70rem;
+    left: 15rem;
+    text-align: left;
+    width: 90rem;
+}
+.tablee a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: monospace;
+    font-size: larger;
+    font-weight:900;
+}
