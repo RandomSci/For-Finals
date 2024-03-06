@@ -13,7 +13,7 @@ body{
 .Picture{
     position:absolute;
     top: 10rem;
-    right: 34rem;
+    right: 39rem;
     height: 135px;
     width: 135px;
     border-radius: 100px;
@@ -45,7 +45,7 @@ body{
 .skills{
     position: absolute;
     top: 27rem;
-    right: 32rem;
+    right: 34rem;
 }
 .skills li{
     color: rgb(221, 98, 16);
@@ -57,13 +57,13 @@ body{
 }
 .ww{
     position: absolute;
-    right: 38rem;
+    right: 39rem;
     color: rgb(11, 108, 219);
 }
 .lang{
     position: absolute;
     top: 45rem;
-    right: 38.5rem;
+    right: 44rem;
 }
 .lang li{
     color: rgb(221, 98, 16);
@@ -76,14 +76,14 @@ body{
 }
 .projlink-p{
     position: absolute;
-    right: 37rem;
+    right: 38.5rem;
     color: rgb(11, 108, 219);
     top: 54rem;
 }
 .proj-links{
     position: absolute;
     top: 56rem;
-    right: 22rem;
+    right: 25rem;
 }
 .proj-links li {
     text-decoration: none;
@@ -96,13 +96,13 @@ body{
 .lastw{
     position: absolute;
     top: 65rem;
-    right: 37.5rem;
+    right: 38rem;
     color: rgb(11, 108, 219);
 }
 .social-links{
     position: absolute;
     top: 68rem;
-    right: 35.5rem;
+    right: 41rem;
 }
 .social-links li {
     text-decoration: none;
