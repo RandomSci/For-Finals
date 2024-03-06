@@ -1,0 +1,70 @@
+body{
+    background-color: aliceblue;
+}
+.c1a{
+    top: 1px;
+    text-decoration: none;
+    position: absolute; 
+    color: rgb(34, 96, 230); 
+  }
+.a1{
+    text-align: center;
+}
+.cbg{
+    font-size: larger;
+    position: absolute;
+    left: 8rem;
+    top: 12rem;
+}
+.lc{
+    font-size: larger;
+    position: absolute;
+    left: 10rem;
+    top: 18rem;
+}
+.lc1{
+    font-size: larger;
+    position: absolute;
+    left: 12rem;
+    top: 21rem;
+}
+.h1a{
+    position: absolute;
+    left: 48rem;
+    top: 40rem;
+}
+.st{
+    position: absolute;
+    left: 10rem;
+    top: 50rem;
+    font-size: larger;
+}
+.st2{
+    position: absolute;
+    left: 10rem;
+    top: 54rem; 
+    font-size: larger;
+}
+.st3{
+    position: absolute;
+    left: 10rem;
+    top: 58rem; 
+    font-size: larger;
+}
+.st4{
+    position: absolute;
+    left: 10rem;
+    top: 62rem; 
+    font-size: larger;
+}
+.st5{
+    position: absolute;
+    left: 10rem;
+    top: 66rem; 
+    font-size: larger;
+}
+.vid{
+    position: absolute;
+    top: 75rem;
+    left: 20rem;
+}
