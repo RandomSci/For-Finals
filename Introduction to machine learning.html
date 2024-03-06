@@ -8,10 +8,8 @@
 </head>
 <body>
     <a class="c1a" href="Home.html"><h1>Machine Learning</h1></a>
-    <br><br><br>
-    <hr>
     <h1 class="a1">Introduction to Machine Learning</h1>
-    <p class="cbg">Welcome to Introduction to Machine Learning! This course introduces <strong>machine learning (ML)</strong> concepts. This course <br> does not cover how to implement ML or work with data.</p>
+    <p class="cbg">Welcome to Introduction to Machine Learning! This course introduces <strong>machine learning (ML)</strong> concepts. This course does not cover how to implement ML or work with data.</p>
     <div class="xa">
         <p class="lc">Learning objectives:</p>
         <ul class="lc1">
@@ -24,7 +22,6 @@
     </div>
     <div class=h1a>
         <h1>What is Machine Learning?</h1>
-        <hr>
     </div>
     <div class="st">
         <p>Machine learning (ML) powers some of the most important technologies we use, from translation apps to autonomous vehicles. This course explains the core concepts behind ML.</p>
@@ -44,5 +41,98 @@
     <div class="vid">
         <video src="What is ML_.mp4" controls muted loop="true"></video>
     </div>
+    <h1 class="types">Types of ML Systems</h1>
+    <p class="below-types">ML systems fall into one or more of the following categories based on how they learn to make predictions or generate content:</p>
+    <ul class="supervised-generative">
+        <li>Supervised learning</li>
+        <br>
+        <li>Unsupervised learning</li>
+        <br>
+        <li>Reinforcement learning</li>
+        <br>
+        <li>Generative AI</li>
+    </ul>
+    <h1 class="supervised">Supervised learning</h1>
+    <div class="super1">
+        <p><a href="">Supervised learning</a> models can make predictions after seeing lots of data with the correct answers and then discovering the connections between the elements in the data that produce the correct answers. This is like a student learning new material by studying old exams that contain both questions and answers. 
+            Once the student has trained on enough old exams, the student is well prepared to take a new exam.
+            These ML systems are "supervised" in the sense that a human gives the ML system data with the known correct results.</p>
+    </div>
+    <p class="super2">Two of the most common use cases for supervised learning are regression and classification.</p>
+    <h2 class="Regression">Regression</h2>
+    <p class="regexplain">A regression model predicts a numeric value. For example, a weather model that predicts the amount of rain, in inches or millimeters, is a regression model.</p>
+    <p class="abovetable">See the table below for more examples of regression models:</p>
+    <table class="adjust">
+        <tr>
+            <th>Scenario</th>
+            <th>Possible input data</th>
+            <th>Numeric prediction</th>
+        </tr>
+        <tr>
+            <td>Future house price &nbsp;&nbsp;</td>
+            <td>Square footage, zip code, number of bedrooms and bathrooms, lot size, etc.</td>
+            <td>The price of the home.</td>
+        </tr>
+        <tr>
+            <td>Future ride time</td>
+            <td>Historical traffic conditions gathered from smartphones, traffic sensors, 
+                ride-hailing, etc. &nbsp;&nbsp;&nbsp;</td>
+            <td>The time in minutes and<br>seconds to arrive at a<br>destination.</td>
+        </tr>
+    </table>
+    <h2 class="classification">Classification</h2>
+    <p class="spr1">Classification models predict the likelihood that something belongs to a category. Unlike regression models, whose output is a number, classification models output a value that states whether or not something belongs to a particular category. 
+        For example, classification models are used to predict if an email is spam or if a photo contains a cat</p>
+    <p class="spr2">Classification models are divided into two groups: binary classification and multiclass classification. Binary classification models output a value from a class that contains only two values, for example, a model that outputs either rain or no rain.
+         Multiclass classification models output a value from a class that contains more than two values, for example, a model that can output either <code>rain</code>, <code>hail</code>, <code>snow</code>, or <code>sleet</code>.
+        </p>
+    <video class="vid2" controls muted loop="true" src="Supervised Machine Learning.mp4"></video>
+    <h1 class="Unsupervised">Unsupervised learning</h1>
+    <p class="suprr1"><a href="">Unsupervised learning</a> models make predictions by being given data that does not contain any correct answers. 
+        An unsupervised learning model's goal is to identify meaningful patterns among the data. 
+        In other words, the model has no hints on how to categorize each piece of data, but instead it must infer its own rules.
+    </p>
+    <p class="suprr2">A commonly used unsupervised learning model employs a technique called <a href="">clustering</a>. The model finds data points that demarcate natural groupings.</p>
+    <img class="cluspic1" src="clustering-01.png" alt="">
+    <p class="below-pic1"><strong>Figure 1</strong>. An ML model clustering similar data points.</p>
+    <img class="cluspic2" src="clustering-02.png" alt="">
+    <p class="below-pic2"><strong>Figure 2</strong>. Groups of clusters with natural demarcations.</p>
+    <img src="clustering-03.png" alt="" class="cluspic3">
+    <p class="below-pic3"><strong>Figure 3</strong>. An ML model clustering similar weather patterns.</p>
+    <img src="clustering-04.png" alt="" class="cluspic4">
+    <p class="below-pic4"><strong>Figure 4</strong>. Clusters of weather patterns labeled as snow, sleet, rain, and no rain.</p>
+    <p class="clusexplain">Clustering differs from classification because the categories aren't defined by you. 
+        For example, an unsupervised model might cluster a weather dataset based on temperature, revealing segmentations that define the seasons.
+        You might then attempt to name those clusters based on your understanding of the dataset.
+    </p>
+    <!--Reinforcement Learning-->
+    <h1 class="Reinforcementlrng">Reinforcement learning</h1>
+    <p class="expllrng1"><a href="">Reinforcement learning</a> models make predictions by getting <a href="">rewards</a> or penalties based on actions performed within an environment.
+         A reinforcement learning system generates a <a href="">policy</a> that defines the best strategy for getting the most rewards.
+    </p>
+    <p class="expllrng2">Reinforcement learning is used to train robots to perform tasks, like walking around a room, and software programs like AlphaGo to play the game of Go.</p>
+    <!--Generative AI-->
+    <h1 class="GenerativeAI">Generative AI</h1>
+    <p class="genexplain1">Generative AI is a class of models that creates content from user input. For example, generative AI can create novel images, music compositions, 
+        and jokes; it can summarize articles, explain how to perform a task, or edit a photo.
+    </p>
+    <p class="genexplain2">Generative AI can take a variety of inputs and create a variety of outputs, like text, images, audio, and video. It can also take and create combinations of these.
+         For example, a model can take an image as input and create an image and text as output, or take an image and text as input and create a video as output.
+    </p>
+    <p class="genexplain3">We can discuss generative models by their inputs and outputs, typically written as "type of input"-to-"type of output." For example, the following is a partial list of some inputs and outputs for generative models:</p>
+    <ul class="list6">
+        <li>Text-to-text</li>
+        <br>
+        <li>Text-to-image</li>
+        <br>
+        <li>Text-to-video</li>
+        <br>
+        <li>Text-to-code</li>
+        <br>
+        <li>Text-to-speech</li>
+        <br>
+        <li>Image and text-to-image</li>
+    </ul>
+    <p class="belowtablee">The following table list examples of generative models, their input, and an example of their possible output:</p>
 </body>
 </html>

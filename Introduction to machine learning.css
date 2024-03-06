@@ -68,3 +68,205 @@ body{
     top: 75rem;
     left: 20rem;
 }
+.types{
+    position: absolute;
+    top: 130rem;
+    right: 45%;
+}
+.below-types{
+    position: absolute;
+    left: 10rem;
+    top: 137rem;
+    font-size: larger;
+}
+.supervised-generative{
+    position: absolute;
+    left: 13rem;
+    top: 140rem;
+    font-size: larger;
+}
+.supervised{
+    position: absolute;
+    top: 160rem;
+    right: 46%;
+}
+.super1{
+    position: absolute;
+    left: 10rem;
+    top: 165rem;
+    font-size: larger;
+}
+.super2{
+    position: absolute;
+    left: 10rem;
+    top: 170rem;
+    font-size: larger;
+}
+.Regression{
+    position: absolute;
+    top: 180rem;
+    left: 15%;
+}
+.regexplain{
+    position: absolute;
+    left: 10rem;
+    top: 184rem;
+    font-size: larger;
+}
+.abovetable{
+    position: absolute;
+    left: 10rem;
+    top: 187rem;
+    font-size: larger;
+}
+.adjust{
+    position: absolute;
+    left: 15rem;
+    top: 190rem;
+    height: 12rem;
+}
+.classification{
+    position: absolute;
+    top: 210rem;
+    left: 13%;
+}
+.spr1{
+    position: absolute;
+    left: 10rem;
+    top: 212rem;
+    font-size: larger;
+}
+.spr2{
+    position: absolute;
+    left: 10rem;
+    top: 216rem;
+    font-size: larger;
+}
+.vid2{
+    position: absolute;
+    top: 224rem;
+    left: 20rem;
+}
+.Unsupervised{
+    position: absolute;
+    top: 280rem;
+    right: 46%;
+}
+.suprr1{
+    position: absolute;
+    left: 10rem;
+    top: 285rem;
+    font-size: larger;
+}
+.suprr2{
+    position: absolute;
+    left: 10rem;
+    top: 289rem;
+    font-size: larger;
+}
+.cluspic1{
+    position: absolute;
+    left: 20rem;
+    top: 300rem;
+    height: 360px;
+    width: 500px;
+}
+.below-pic1{
+    position: absolute;
+    left: 20rem;
+    top: 323rem;
+}
+.cluspic2{
+    position: absolute;
+    right: 30rem;
+    top: 300rem;
+    height: 360px;
+    width: 500px;
+}
+.below-pic2{
+    position: absolute;
+    right: 39rem;
+    top: 323rem;
+}
+.cluspic3{
+    position: absolute;
+    left: 20rem;
+    top: 330rem;
+    height: 360px;
+    width: 500px;
+}
+.below-pic3{
+    position: absolute;
+    left: 20rem;
+    top: 353rem;
+}
+.cluspic4{
+    position: absolute;
+    right: 30rem;
+    top: 330rem;
+    height: 360px;
+    width: 500px;
+}
+.below-pic4{
+    position: absolute;
+    right: 30rem;
+    top: 353rem;
+}
+.clusexplain{
+    position: absolute;
+    left: 10rem;
+    top: 359rem;
+    font-size: larger;
+}
+.Reinforcementlrng{
+    position: absolute;
+    top: 370rem;
+    right: 46%;
+}
+.expllrng1{
+    position: absolute;
+    left: 10rem;
+    top: 376rem;
+    font-size: larger;
+}
+.expllrng2{
+    position: absolute;
+    left: 10rem;
+    top: 381rem;
+    font-size: larger;
+}
+.GenerativeAI{
+    position: absolute;
+    top: 395rem;
+    left: 40%;
+}
+.genexplain1{
+    position: absolute;
+    left: 10rem;
+    top: 402rem;
+    font-size: larger;
+}
+.genexplain2{
+    position: absolute;
+    left: 10rem;
+    top: 406rem;
+    font-size: larger;
+}
+.genexplain3{
+    position: absolute;
+    left: 10rem;
+    top: 410rem;
+    font-size: larger;
+}
+.list6{
+    position: absolute;
+    left: 13rem;
+    top: 414rem;
+    font-size: larger;
+}
+.belowtablee{
+    position: absolute;
+    left: 10rem;
+    top: 432rem;
+    font-size: larger;
+}
