@@ -1,14 +1,29 @@
 body{
     background-color: aliceblue;
+    font-family:sans-serif;
+}
+body a{
+    text-decoration: none;
+    color: rgb(34, 96, 230);
+}
+body li{
+    color: rgb(21, 51, 221);
 }
 .c1a{
     top: 1px;
     text-decoration: none;
     position: absolute; 
     color: rgb(34, 96, 230); 
-  }
+}
 .a1{
-    text-align: center;
+    position:absolute;
+    top:5rem;
+    left:39%;
+    color: rgb(34, 96, 230);
+}
+.super1link{
+    text-decoration: none;
+    color: rgb(34, 96, 230);
 }
 .cbg{
     font-size: larger;
@@ -21,6 +36,7 @@ body{
     position: absolute;
     left: 10rem;
     top: 18rem;
+    font-weight: bolder
 }
 .lc1{
     font-size: larger;
@@ -32,6 +48,9 @@ body{
     position: absolute;
     left: 48rem;
     top: 40rem;
+}
+.h1a h1{
+    color: rgb(34, 96, 230);
 }
 .st{
     position: absolute;
@@ -72,6 +91,7 @@ body{
     position: absolute;
     top: 130rem;
     right: 45%;
+    color: rgb(34, 96, 230);
 }
 .below-types{
     position: absolute;
@@ -89,6 +109,7 @@ body{
     position: absolute;
     top: 160rem;
     right: 46%;
+    color: rgb(34, 96, 230);
 }
 .super1{
     position: absolute;
@@ -99,19 +120,27 @@ body{
 .super2{
     position: absolute;
     left: 10rem;
-    top: 170rem;
+    top: 172rem;
     font-size: larger;
 }
 .Regression{
     position: absolute;
     top: 180rem;
     left: 15%;
+    color: rgb(34, 96, 230);
+}
+.adjust-1{
+    color: rgb(230, 44, 60);
 }
 .regexplain{
     position: absolute;
     left: 10rem;
     top: 184rem;
     font-size: larger;
+}
+.regexplain a{
+    text-decoration: none;
+    color: rgb(34, 96, 230);
 }
 .abovetable{
     position: absolute;
@@ -127,8 +156,9 @@ body{
 }
 .classification{
     position: absolute;
-    top: 210rem;
+    top: 208rem;
     left: 13%;
+    color: rgb(34, 96, 230);
 }
 .spr1{
     position: absolute;
@@ -151,6 +181,7 @@ body{
     position: absolute;
     top: 280rem;
     right: 46%;
+    color: rgb(34, 96, 230);
 }
 .suprr1{
     position: absolute;
@@ -158,11 +189,19 @@ body{
     top: 285rem;
     font-size: larger;
 }
+.suprr1 a{
+    text-decoration: none;
+    color: rgb(34, 96, 230);
+}
 .suprr2{
     position: absolute;
     left: 10rem;
     top: 289rem;
     font-size: larger;
+}
+.suprr2 a{
+    text-decoration: none;
+    color: rgb(34, 96, 230);
 }
 .cluspic1{
     position: absolute;
@@ -222,6 +261,7 @@ body{
     position: absolute;
     top: 370rem;
     right: 46%;
+    color: rgb(34, 96, 230);
 }
 .expllrng1{
     position: absolute;
@@ -229,16 +269,21 @@ body{
     top: 376rem;
     font-size: larger;
 }
+.expllrng1 a{
+    text-decoration: none;
+    color: rgb(34, 96, 230);
+}
 .expllrng2{
     position: absolute;
     left: 10rem;
-    top: 381rem;
+    top: 383rem;
     font-size: larger;
 }
 .GenerativeAI{
     position: absolute;
     top: 395rem;
-    left: 40%;
+    left: 38.5%;
+    color: rgb(34, 96, 230);
 }
 .genexplain1{
     position: absolute;
@@ -269,4 +314,149 @@ body{
     left: 10rem;
     top: 432rem;
     font-size: larger;
+}
+.s11{
+    left: 10rem;
+    position: absolute;
+    top: 440rem;
+    color: rgb(34, 96, 230);
+}
+.s1-1{
+    left: 10rem;
+    position: absolute;
+    top: 445rem;
+}
+.s12{
+    left: 30%;
+    position: absolute;
+    top: 440rem;
+    color: rgb(34, 96, 230);
+}
+.s1-2{
+    left: 30%;
+    position: absolute;
+    top: 445rem;
+}
+.s13{
+    left: 60%;
+    position: absolute;
+    top: 440rem;
+    color: rgb(34, 96, 230);
+}
+.s1-3{
+    left: 60%;
+    position: absolute;
+    top: 445rem;
+}
+.s1-3 a{
+    text-decoration: none;
+}
+.Text-to-image{
+    left: 10rem;
+    position: absolute;
+    top: 456rem;
+}
+.Text-to-image1{
+    left: 30%;
+    position: absolute;
+    top: 456rem;
+}
+.Text-to-image2{
+    left: 60%;
+    position: absolute;
+    top: 457.3rem;
+    height: 150px;
+    width: 160px;
+}
+.Text-to-image-source{
+    left: 60%;
+    position: absolute;
+    top: 466rem;
+}
+.Text-to-image-source a{
+    text-decoration: none;
+}
+.Text-to-video{
+    left: 10rem;
+    position: absolute;
+    top: 470rem;
+}
+.Text-to-video1{
+    left: 30%;
+    position: absolute;
+    top: 470rem;
+}
+.Text-to-video2{
+    left: 60%;
+    position: absolute;
+    top: 471rem;
+    height: 149px;
+    width: 160px;
+}
+.Text-to-video3{
+    left: 60%;
+    position: absolute;
+    top: 480.5rem;
+}
+.Text-to-video3 a{
+    text-decoration: none;
+}
+.Image-to-text{
+    left: 10rem;
+    position: absolute;
+    top: 485rem;
+}
+.Image-to-text1{
+    left: 30%;
+    position: absolute;
+    top: 486rem;
+}
+.Image-to-text1 a{
+    text-decoration: none;
+}
+.Image-to-text2{
+    left: 60%;
+    position: absolute;
+    top: 486rem;
+}
+.Image-to-text2 a{
+    text-decoration: none;
+}
+.generativexpln{
+    left: 10rem;
+    position: absolute;
+    top: 500rem;
+}
+.generativelst{
+    left: 12rem;
+    position: absolute;
+    top: 504rem;
+}
+.Produce{
+    left: 10rem;
+    position: absolute;
+    top: 515rem;
+}
+.Generativeexp{
+    left: 10rem;
+    position: absolute;
+    top: 525rem;
+}
+.Previous-link a{
+    left: 20rem;
+    position: absolute;
+    top: 537rem;
+    text-decoration: none;
+}
+.Previous-link a:hover{
+    scale: 1.2;
+}
+.next-link a{
+    right: 20rem;
+    position: absolute;
+    top: 537rem;
+    text-decoration: none;
+}
+.next-link a:hover{
+    scale: 1.2;
 }

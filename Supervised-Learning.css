@@ -1,0 +1,17 @@
+body{
+    background-color: aliceblue;
+    font-family:sans-serif;
+}
+.c1a{
+    top: 1px;
+    text-decoration: none;
+    position: absolute; 
+    color: rgb(34, 96, 230); 
+}
+.ca{
+    text-align: center;
+    position: relative;
+    top: 20rem;
+    font-size: xx-large;
+    color: red;
+}
