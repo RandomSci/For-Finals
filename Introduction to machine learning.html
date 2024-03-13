@@ -7,7 +7,7 @@
     <title>Introduction</title>
 </head>
 <body>
-    <a class="c1a" href="Home.html"><h1>Machine Learning</h1></a>
+    <a href="Home.html"><h1>Machine Learning</h1></a>
     <h1 class="a1">Introduction to Machine Learning</h1>
     <p class="cbg">Welcome to Introduction to Machine Learning! This course introduces <strong>machine learning (ML)</strong> concepts. 
         This course does not cover how to implement ML or work with data.
@@ -15,11 +15,9 @@
     <div class="xa">
         <p class="lc">Learning objectives:</p>
         <ul class="lc1">
-            <li>Understand the different types of machine learning.</li>
-            <br>
-            <li>Understand the key concepts of supervised machine learning.</li>
-            <br>
-            <li>Learn how solving problems with ML is different from traditional approaches.</li>
+            <li>Understand the different types of machine learning.<br> &nbsp;</li>
+            <li>Understand the key concepts of supervised machine learning.<br> &nbsp;</li>
+            <li>Learn how solving problems with ML is different from traditional approaches.<br> &nbsp;</li>
         </ul>
     </div>
     <div class=h1a>
@@ -58,13 +56,10 @@
     <h1 class="types">Types of ML Systems</h1>
     <p class="below-types">ML systems fall into one or more of the following categories based on how they learn to make predictions or generate content:</p>
     <ul class="supervised-generative">
-        <li>Supervised learning</li>
-        <br>
-        <li>Unsupervised learning</li>
-        <br>
-        <li>Reinforcement learning</li>
-        <br>
-        <li>Generative AI</li>
+        <li>Supervised learning <br> &nbsp;</li>
+        <li>Unsupervised learning<br> &nbsp;</li>
+        <li>Reinforcement learning<br> &nbsp;</li>
+        <li>Generative AI<br> &nbsp;</li>
     </ul>
     <h1 class="supervised">Supervised learning</h1>
     <div class="super1">
@@ -77,123 +72,209 @@
     </div>
     <p class="super2"><br><br>Two of the most common use cases for supervised learning are regression and classification.</p>
     <h2 class="Regression">Regression</h2>
-    <p class="regexplain">A <a target="_blank" href="https://developers.google.com/machine-learning/glossary#regression-model">regression model</a> predicts a numeric value. For example, a weather model that predicts the amount of rain, in inches or millimeters, is a regression model.</p>
+    <div class="reression1-1">
+        <p class="regexplain">A <a target="_blank" href="https://developers.google.com/machine-learning/glossary#regression-model">regression model</a> predicts a numeric value. For example, 
+            a weather model that predicts the amount of rain, in inches or millimeters, is a regression model.</p>
+    </div>
     <p class="abovetable">See the table below for more examples of regression models:</p>
-    <table class="adjust">
-        <tr class="adjust-1">
-            <th>Scenario</th>
-            <th>Possible input data</th>
-            <th>Numeric prediction</th>
-        </tr>
-        <tr>
-            <td>Future house price &nbsp;&nbsp;</td>
-            <td>Square footage, zip code, number of bedrooms and bathrooms, lot size, etc.</td>
-            <td>The price of the home.</td>
-        </tr>
-        <tr>
-            <td>Future ride time</td>
-            <td>Historical traffic conditions gathered from smartphones, traffic sensors, 
-                ride-hailing, etc. &nbsp;&nbsp;&nbsp;</td>
-            <td>The time in minutes and<br>seconds to arrive at a<br>destination.</td>
-        </tr>
-    </table>
+        <table class="tabl2-2">
+            <tr class="adjust-1">
+                <th>Scenario</th>
+                <th>Possible input data</th>
+                <th>Numeric prediction</th>
+            </tr>
+            <tr>
+                <td>Future house price &nbsp;&nbsp;</td>
+                <td>Square footage, zip code, number of bedrooms and bathrooms, lot size, etc.</td>
+                <td>The price of the home.</td>
+            </tr>
+            <tr>
+                <td>Future ride time</td>
+                <td>Historical traffic conditions gathered from smartphones, traffic sensors, 
+                    ride-hailing, etc. &nbsp;&nbsp;&nbsp;</td>
+                <td>&nbsp;<br>&nbsp;The time in minutes and<br>seconds to arrive at a<br>destination.</td>
+            </tr>
+        </table>
     <h2 class="classification">Classification</h2>
-    <p class="spr1"><a target="_blank" href="https://developers.google.com/machine-learning/glossary#classification-model">Classification models</a> predict the likelihood that something belongs to a category. 
-        Unlike regression models, whose output is a number, classification models output a value that states whether or not something belongs to a particular category. 
-        For example, classification models are used to predict if an email is spam or if a photo contains a cat</p>
-    <p class="spr2">Classification models are divided into two groups: binary classification and multiclass classification.
-         Binary classification models output a value from a class that contains only two values, for example, a model that outputs either rain or no rain.
-         Multiclass classification models output a value from a class that contains more than two values, for example, a model that can output either <code>rain</code>, 
-         <code>hail</code>, <code>snow</code>, or <code>sleet</code>.
+    <div class="spr1-1">
+        <p class="spr1"><a target="_blank" href="https://developers.google.com/machine-learning/glossary#classification-model">Classification models</a> predict the likelihood that something belongs to a category. 
+            Unlike regression models, whose output is a number, classification models output a value that states whether or not something belongs to a particular category. 
+            For example, classification models are used to predict if an email is spam or if a photo contains a cat.</p>
+    </div>
+    <div class="spr2-2">
+        <p class="spr2">Classification models are divided into two groups: binary classification and multiclass classification.
+            Binary classification models output a value from a class that contains only two values, for example, a model that outputs either rain or no rain.
+            Multiclass classification models output a value from a class that contains more than two values, for example, a model that can output either <code>rain</code>, 
+            <code>hail</code>, <code>snow</code>, or <code>sleet</code>.
         </p>
-    <video class="vid2" controls muted loop="true" src="Supervised Machine Learning.mp4"></video>
+    </div>
+    <div class="vidd2">
+        <video controls muted loop="true" src="Supervised Machine Learning.mp4"></video>
+    </div>
     <h1 class="Unsupervised">Unsupervised learning</h1>
-    <p class="suprr1"><a target="_blank" href="https://developers.google.com/machine-learning/glossary#unsupervised-machine-learning">Unsupervised learning</a> models make predictions by being given data that does not contain any correct answers. 
-        An unsupervised learning model's goal is to identify meaningful patterns among the data. 
-        In other words, the model has no hints on how to categorize each piece of data, but instead it must infer its own rules.
-    </p>
-    <p class="suprr2">A commonly used unsupervised learning model employs a technique called <a target="_blank" href="https://developers.google.com/machine-learning/glossary#clustering">clustering</a>. The model finds data points that demarcate natural groupings.</p>
-    <img class="cluspic1" src="clustering-01.png" alt="">
-    <p class="below-pic1"><strong>Figure 1</strong>. An ML model clustering similar data points.</p>
-    <img class="cluspic2" src="clustering-02.png" alt="">
-    <p class="below-pic2"><strong>Figure 2</strong>. Groups of clusters with natural demarcations.</p>
-    <img src="clustering-03.png" alt="" class="cluspic3">
-    <p class="below-pic3"><strong>Figure 3</strong>. An ML model clustering similar weather patterns.</p>
-    <img src="clustering-04.png" alt="" class="cluspic4">
-    <p class="below-pic4"><strong>Figure 4</strong>. Clusters of weather patterns labeled as snow, sleet, rain, and no rain.</p>
+    <div class="suppr11">
+        <p class="suprr1"><a target="_blank" href="https://developers.google.com/machine-learning/glossary#unsupervised-machine-learning">Unsupervised learning</a> models make predictions by being given data that does not contain any correct answers. 
+            An unsupervised learning model's goal is to identify meaningful patterns among the data. 
+            In other words, the model has no hints on how to categorize each piece of data, but instead it must infer its own rules.
+        </p>
+    </div>
+    <div class="suprr22">
+        <p class="suprr2">A commonly used unsupervised learning model employs a technique called <a target="_blank" href="https://developers.google.com/machine-learning/glossary#clustering">clustering</a>.
+             The model finds data points that demarcate natural groupings.
+        </p>
+    </div>
+    <div class="first2">
+        <img class="cluspic1" src="clustering-01.png" alt="">
+        <img src="clustering-02.png" alt="">
+    </div>
+    <div class="first2-1">
+        <p><strong>Figure 1</strong>. An ML model clustering similar data points.</p>
+        <p class="below-pic1"><strong>Figure 2</strong>. Groups of clusters with natural demarcations.</p>
+    </div>
+    <div class="last2">
+        <img class="lastpic1" src="clustering-03.png" alt="" class="cluspic3">
+        <img src="clustering-04.png" alt="" class="cluspic4">
+    </div>
+    <div class="last2-2">
+        <p class="below-pic3"><strong>Figure 3</strong>. An ML model clustering similar weather patterns.</p>
+        <p class="below-pic4"><strong>Figure 4</strong>. Clusters of weather patterns labeled as snow, sleet, rain, and no rain.</p>
+    </div>
     <p class="clusexplain">Clustering differs from classification because the categories aren't defined by you. 
-        For example, an unsupervised model might cluster a weather dataset based on temperature, revealing <br><br> segmentations that define the seasons.
+        For example, an unsupervised model might cluster a weather dataset based on temperature, revealing segmentations that define the seasons.
         You might then attempt to name those clusters based on your understanding of the dataset.
     </p>
     <!--Reinforcement Learning-->
     <h1 class="Reinforcementlrng">Reinforcement learning</h1>
-    <p class="expllrng1"><a target="_blank" href="https://developers.google.com/machine-learning/glossary#reinforcement-learning-rl">Reinforcement learning</a> models make predictions by getting <a target="_blank" href="https://developers.google.com/machine-learning/glossary#reward">rewards</a> or penalties based on actions performed within an environment.
-         A reinforcement learning system generates a <a target="_blank" href="https://developers.google.com/machine-learning/glossary#policy">policy</a> that <br><br> defines the best strategy for getting the most rewards.
-    </p>
-    <p class="expllrng2">Reinforcement learning is used to train robots to perform tasks, like walking around a room, and software programs like AlphaGo to play the game of Go.</p>
+    <div class="rainrain">
+        <p class="expllrng1"><a target="_blank" href="https://developers.google.com/machine-learning/glossary#reinforcement-learning-rl">Reinforcement learning</a> models make predictions by getting <a target="_blank" href="https://developers.google.com/machine-learning/glossary#reward">rewards</a> or penalties based on actions performed within an environment.
+            A reinforcement learning system generates a <a target="_blank" href="https://developers.google.com/machine-learning/glossary#policy">
+            policy</a> that defines the best strategy for getting the most rewards.
+       </p>
+       <p>Reinforcement learning is used to train robots to perform tasks, like walking around a room, and software programs like AlphaGo to play the game of Go.</p>
+    </div>
+
     <!--Generative AI-->
     <h1 class="GenerativeAI">Generative AI</h1>
-    <p class="genexplain1"><a href="https://developers.google.com/machine-learning/glossary#generative-ai">Generative AI</a> is a class of models that creates content from user input. For example, generative AI can create novel images, music compositions, 
-        and jokes; it can summarize articles, explain how to perform a task, or edit a photo.
-    </p>
-    <p class="genexplain2">Generative AI can take a variety of inputs and create a variety of outputs, like text, images, audio, and video. It can also take and create combinations of these.
-         For example, a model can take an image as input and create an image and text as output, or take an image and text as input and create a video as output.
-    </p>
-    <p class="genexplain3">We can discuss generative models by their inputs and outputs, typically written as "type of input"-to-"type of output." For example, 
-        the following is a partial list of some inputs and outputs for generative models:
-    </p>
-    <ul class="list6">
-        <li>Text-to-text</li>
-        <br>
-        <li>Text-to-image</li>
-        <br>
-        <li>Text-to-video</li>
-        <br>
-        <li>Text-to-speech</li>
-        <br>
-        <li>Image and text-to-image</li>
-    </ul>
+    <div class="genExplain">
+        <p class="genexplain1"><a href="https://developers.google.com/machine-learning/glossary#generative-ai">Generative AI</a> is a class of models that creates content from user input. For example, generative AI can create novel images, music compositions, 
+            and jokes; it can summarize articles, explain how to perform a task, or edit a photo.
+        </p>
+        <p class="genexplain2">Generative AI can take a variety of inputs and create a variety of outputs, like text, images, audio, and video. It can also take and create combinations of these.
+             For example, a model can take an image as input and create an image and text as output, or take an image and text as input and create a video as output.
+        </p>
+        <p class="genexplain3">We can discuss generative models by their inputs and outputs, typically written as "type of input"-to-"type of output." For example, 
+            the following is a partial list of some inputs and outputs for generative models:
+        </p>
+    </div>
+    <div class="listtss">
+        <ul class="list6">
+            <li>Text-to-text</li>
+            <br>
+            <li>Text-to-image</li>
+            <br>
+            <li>Text-to-video</li>
+            <br>
+            <li>Text-to-speech</li>
+            <br>
+            <li>Image and text-to-image</li>
+        </ul>
+    </div>
     <p class="belowtablee">The following table list examples of generative models, their input, and an example of their possible output:</p>
-    <p class="s11">Model</p>
-    <p class="s1-1">Text-to-text</p>
-    <p class="s12">Input</p>
-    <p class="s1-2">Who invented the Le Mans race?</p>
-    <p class="s13">Example output</p>
-    <p class="s1-3">The 24 Hours of Le Mans was founded by the Automobile Club de l'Ouest (ACO), <br>a motoring organization founded in 1906. 
-        The first race was held on 26 and 27 May <br>1923 on the Sarthe Circuit, a 13.426-kilometre (8.345-mile) road circuit located near <br>the town of Le Mans in France. 
-        The race was originally conceived as a way to promote <br>the ACO and the Sarthe region. <br> <small>Source: <a href="https://gemini.google.com/" target="_blank">Bard</a></small>
-    </p>
-    <p class="Text-to-image">Text-to-image</p>
-    <p class="Text-to-image1">An alien octopus floats through a portal reading a newspaper.</p>
-    <img src="Text-to-image.png" alt="octopus" class="Text-to-image2">
-    <p class="Text-to-image-source"><small>Source:</small> <a href="https://imagen.research.google/" target="_blank"><small>Imagen</small></a></p>
-    <p class="Text-to-video">Text-to-video</p>
-    <p class="Text-to-video1">A photorealistic teddy bear is swimming in the ocean at San Francisco. <br>The teddy bear goes under water.
-         The teddy bear keeps swimming under the <br>water with colorful fishes. A panda bear is swimming under water
-    </p>
-    <img class="Text-to-video2" src="Text-to-video.gif" alt="Teddy Bear">
-    <small class="Text-to-video3">Source: <a href="https://phenaki.video/">Phenaki</a></small>
-    <p class="Image-to-text">Image-to-text</p>
-    <img src="Image-to-text.png" alt="flamingo" class="Image-to-text1">
-    <p class="Image-to-text2">This is a flamingo. They are found in the Caribbean. <br><br><small>Source: <a href="https://deepmind.google/discover/blog/tackling-multiple-tasks-with-a-single-visual-language-model/">Google DeepMind</a></small></p>
+    <div class="M-O-E">
+        <p class="s11">Model</p>
+        <p class="s12">Input</p>
+        <p class="s13">Example output</p>
+    </div>
+    <div class="secondd">
+        <p contenteditable="false" class="s1-1">Text-to-text</p>
+        <p class="s1-2">Who invented the Le Mans race?</p>
+        <p class="s1-3">The race was originally conceived as a way to <br> promote the ACO and the Sarthe region.<small>Source: <a href="https://gemini.google.com/" target="_blank">Bard</a></small></p>
+    </div>
+    <div class="third">
+        <p class="Text-to-image">Text-to-image</p>
+        <p class="Text-to-image1">An alien octopus floats through a portal <br> reading a newspaper.</p>
+        <div class="seperate">
+            <img src="Text-to-image.png" alt="octopus">
+            <p class="Text-to-image-source"><small>Source:</small> <a href="https://imagen.research.google/" target="_blank"><small>Imagen</small></a></p>
+        </div>
+    </div>
+    <div class="fourth">
+        <p class="Text-to-video">Text-to-video</p>
+        <p class="Text-to-video1">A photorealistic teddy bear is swimming in <br>the ocean at San Francisco. The teddy bear <br>goes under water.
+         The teddy bear keeps <br>swimming under the water with colorful fishes. <br>A panda bear is swimming under water
+        </p>
+        <div class="inside">
+            <img class="Text-to-video2" src="Text-to-video.gif" alt="Teddy Bear">
+            <small class="Text-to-video3">Source: <a href="https://phenaki.video/">Phenaki</a></small>
+        </div>
+    </div>
+    <div class="imagettext">
+        <p class="Image-to-text">Image-to-text</p>
+        <img src="Image-to-text.png" alt="flamingo" class="Image-to-text1">
+        <p class="Image-to-text2">This is a flamingo. They are found in the Caribbean. <br><small>Source: <a href="https://deepmind.google/discover/blog/tackling-multiple-tasks-with-a-single-visual-language-model/">Google DeepMind</a></small></p>
+    </div>
+
     <p class="generativexpln">How does generative AI work? At a high-level, generative models learn patterns in data with the goal to produce new but similar data. Generative models are like the following:</p>
     <ul class="generativelst">
-        <li>Comedians who learn to imitate others by observing people's behaviors and style of speaking.</li>
-        <br>
-        <li>Artists who learn to paint in a particular style by studying lots of paintings in that style.</li>
-        <br>
-        <li>Cover bands that learn to sound like a specific music group by listening to lots of music by that group.</li>
+        <li>Comedians who learn to imitate others by observing people's behaviors and style of speaking.<br>&nbsp;</li>
+        <li>Artists who learn to paint in a particular style by studying lots of paintings in that style.<br>&nbsp;</li>
+        <li>Cover bands that learn to sound like a specific music group by listening to lots of music by that group.<br>&nbsp;</li>
     </ul>
     <p class="Produce">To produce unique and creative outputs, generative models are initially trained using an unsupervised approach, where the model learns to mimic the data it's trained on. 
-        The model is sometimes trained further using <br><br>supervised or reinforcement learning on specific data related to tasks the model might be asked to perform,
-         for example, summarize an article or edit a photo.
+        The model is sometimes trained further using supervised or reinforcement learning on specific data related to tasks the model might be asked to perform,
+        for example, summarize an article or edit a photo.
     </p>
     <p class="Generativeexp">Generative AI is a quickly evolving technology with new use cases constantly being discovered. For example, 
-        generative models are helping businesses refine their ecommerce product images by automatically removing <br><br> distracting backgrounds 
+        generative models are helping businesses refine their ecommerce product images by automatically removing distracting backgrounds 
         or improving the quality of low-resolution images.
     </p>
-    <p class="Previous-link"><a href="Foundational.html"><span style="color: blue;">Previous</span> <br><br><span style="color: darkblue;">to Machine Learning</span></a></p>
-    <p class="next-link"><a href="Supervised-Learning.html"><span style="color: blue;">Next</span> <br><br><span style="color: darkblue;">Supervised Learning</span></a></p>
-    
+    <div class="next-previus">
+        <p class="Previous-link"><a href="Foundational.html"><span style="color: blue;">&larr; Previous</span> <span style="color: darkblue;"><br> Machine Learning</span></a></p>
+        <p class="next-link"><a href="Supervised-Learning.html"><span style="color: blue;">Next &rarr;</span> <span style="color: darkblue;"><br>Supervised Learning</span></a></p>
+    </div>
+    <footer class="footerrz">
+        <table class="tablee">
+            <thead>
+                <tr>
+                    <th>Connect &cross;<br><br></th>
+                    <th>Programs &cross;<br><br></th>
+                    <th>Developer consoles &cross;<br><br></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th><a href="" target="_blank">Blog <br><br></a></th>
+                    <th><a href="" target="_blank">Women Techmakers <br><br></a></th>
+                    <th><a href="" target="_blank">BSIT-1 API Console <br><br></a></th>
+                </tr>
+                <tr>
+                    <th><a href="" target="_blank">LinkedIn <br><br></a></th>
+                    <th><a href="Programmers.html" target="_blank">BSIT Developer Experts <br><br></a></th>
+                    <th><a href="" target="_blank">Chrome Web Store Dashboard <br><br></a></th>
+                </tr>
+                <tr>
+                    <th><a href="" target="_blank">Twitter <br><br></a></th>
+                    <th><a href="" target="_blank">Accelerators <br><br></a></th>
+                    <th><a href="" target="_blank">Firebase Console <br><br></a></th>
+                </tr>
+                <tr>
+                    <th><a href="" target="_blank">Instagram <br><br></a></th>
+                    <th><a href="" target="_blank">BSIT-1 Developer Groups <br><br></a></th>
+                    <th><a href="" target="_blank">BSIT-1 Cloud Platform Console <br><br></a></th>
+                </tr>
+                <tr>
+                    <th><a href="" target="_blank">YouTube <br><br></a></th>
+                    <th><a href="" target="_blank">BSIT Developer Student Clubs <br><br></a></th>
+                    <th><a href="" target="_blank"><a href=#top>Back to Top &uarr;</a><br><br></a></th>
+                </tr>
+            </tbody>
+        </table>
+        <div class="lastt">
+            <p><a href="copyright.html"> &copy; 2024 Machine Learning Free Course. All rights reserved.</a></p>
+            <a href="privacy-policy.html">Privacy Policy </a>
+            
+            <a href="terms-of-service.html">Terms of Service</a>
+        </div>
+    </footer>
 </body>
 </html>

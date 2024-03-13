@@ -1,6 +1,7 @@
 body{
     background-color: aliceblue;
     font-family:sans-serif;
+    font-size: 100%;
 }
 body a{
     text-decoration: none;
@@ -10,15 +11,13 @@ body li{
     color: rgb(21, 51, 221);
 }
 .c1a{
-    top: 1px;
-    text-decoration: none;
-    position: absolute; 
+    display: flex;
+    text-align: left;
     color: rgb(34, 96, 230); 
 }
 .a1{
-    position:absolute;
-    top:5rem;
-    left:39%;
+    display: flex;
+    justify-content: center;
     color: rgb(34, 96, 230);
 }
 .super1link{
@@ -26,116 +25,124 @@ body li{
     color: rgb(34, 96, 230);
 }
 .cbg{
-    font-size: larger;
-    position: absolute;
-    left: 8rem;
-    top: 12rem;
+    text-align: center;
 }
 .lc{
-    font-size: larger;
-    position: absolute;
-    left: 10rem;
-    top: 18rem;
-    font-weight: bolder
+    display: flex;
+    margin-left: 10%;
+    margin-top: 10%;
+    font-weight: bolder;
 }
 .lc1{
     font-size: larger;
-    position: absolute;
-    left: 12rem;
-    top: 21rem;
+    display: flex;
+    flex-direction: column;
+    margin-left: 15%;
+    margin-top: 2%;
 }
 .h1a{
-    position: absolute;
-    left: 48rem;
-    top: 40rem;
+    display: flex;
+    justify-content: center;
 }
 .h1a h1{
     color: rgb(34, 96, 230);
 }
 .st{
-    position: absolute;
-    left: 10rem;
-    top: 50rem;
+    display: flex;
+    justify-content: center;
+    margin-left: 12%;
+    margin-right: 10%;
     font-size: larger;
 }
 .st2{
-    position: absolute;
-    left: 10rem;
-    top: 54rem; 
+    display: flex;
+    justify-content: center;
+    margin-left: 12%;
+    margin-right: 10%;
     font-size: larger;
 }
 .st3{
-    position: absolute;
-    left: 10rem;
-    top: 58rem; 
+    display: flex;
+    justify-content: center;
+    margin-left: 12%;
+    margin-right: 10%;
     font-size: larger;
 }
 .st4{
-    position: absolute;
-    left: 10rem;
-    top: 62rem; 
+    display: flex;
+    justify-content: center;
+    margin-left: 12%;
+    margin-right: 10%;
     font-size: larger;
 }
 .st5{
-    position: absolute;
-    left: 10rem;
-    top: 66rem; 
+    display: flex;
+    justify-content: center;
+    margin-left: 12%;
+    margin-right: 10%;
     font-size: larger;
 }
 .vid{
-    position: absolute;
-    top: 75rem;
-    left: 20rem;
+    display: flex;
+    justify-content: center;
+}
+.vid video{
+    border: 1px solid blue;
+    display: flex;
+    height: fit-content;
+    width: 70%;
+    margin-top: 5%;
 }
 .types{
-    position: absolute;
-    top: 130rem;
-    right: 45%;
+    display: flex;
+    justify-content: center;
+    margin-top: 15%;
     color: rgb(34, 96, 230);
 }
 .below-types{
-    position: absolute;
-    left: 10rem;
-    top: 137rem;
+    display: flex;
+    justify-content: center;
     font-size: larger;
 }
 .supervised-generative{
-    position: absolute;
-    left: 13rem;
-    top: 140rem;
+    display: flex;
+    margin-left: 12%;
+    margin-top: 3%;
+    flex-direction: column;
     font-size: larger;
 }
 .supervised{
-    position: absolute;
-    top: 160rem;
-    right: 46%;
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
     color: rgb(34, 96, 230);
 }
 .super1{
-    position: absolute;
-    left: 10rem;
-    top: 165rem;
+    display: flex;
+    margin-left: 10%;
+    margin-right: 10%;
     font-size: larger;
 }
 .super2{
-    position: absolute;
-    left: 10rem;
-    top: 172rem;
+    display: flex;
+    margin-left: 10%;
     font-size: larger;
 }
 .Regression{
-    position: absolute;
-    top: 180rem;
-    left: 15%;
+    display: flex;
+    margin-left: 13%;
+    margin-top: 10%;
     color: rgb(34, 96, 230);
 }
 .adjust-1{
     color: rgb(230, 44, 60);
 }
+.reression1-1{
+    display: flex;
+    margin-left: 10%;
+    margin-right: 10%;
+}
 .regexplain{
-    position: absolute;
-    left: 10rem;
-    top: 184rem;
     font-size: larger;
 }
 .regexplain a{
@@ -143,223 +150,186 @@ body li{
     color: rgb(34, 96, 230);
 }
 .abovetable{
-    position: absolute;
-    left: 10rem;
-    top: 187rem;
+    display: flex;
+    margin-left: 10%;
     font-size: larger;
 }
-.adjust{
-    position: absolute;
-    left: 15rem;
-    top: 190rem;
-    height: 12rem;
+.tabl2-2{
+    margin-top: 10%;
+    margin-bottom: 5%;
+    text-align: center;
+    margin-left: 10%;
 }
 .classification{
-    position: absolute;
-    top: 208rem;
-    left: 13%;
+    display: flex;
+    margin-left: 13%;
     color: rgb(34, 96, 230);
 }
-.spr1{
-    position: absolute;
-    left: 10rem;
-    top: 212rem;
+.spr1-1{
+    display: flex;
+    margin-left: 10%;
+    margin-right: 12%;
     font-size: larger;
 }
-.spr2{
-    position: absolute;
-    left: 10rem;
-    top: 216rem;
+.spr2-2{
+    display: flex;
+    margin-left: 10%;
+    margin-right: 10%;
     font-size: larger;
 }
-.vid2{
-    position: absolute;
-    top: 224rem;
-    left: 20rem;
+.vidd2{
+    display: flex;
+    justify-content: center;
+}
+.vidd2 video{
+    border: 1px solid blue;
+    display: flex;
+    height: fit-content;
+    width: 70%;
+    margin-top: 5%;
 }
 .Unsupervised{
-    position: absolute;
-    top: 280rem;
-    right: 46%;
+    display: flex;
+    margin-top: 15%;
+    justify-content: center;
     color: rgb(34, 96, 230);
 }
-.suprr1{
-    position: absolute;
-    left: 10rem;
-    top: 285rem;
+.suppr11{
+    display: flex;
+    margin-top: 5%;
+    margin-left: 10%;
     font-size: larger;
 }
 .suprr1 a{
     text-decoration: none;
     color: rgb(34, 96, 230);
 }
-.suprr2{
-    position: absolute;
-    left: 10rem;
-    top: 289rem;
+.suprr22{
+    display: flex;
+    margin-left: 10%;
     font-size: larger;
 }
 .suprr2 a{
     text-decoration: none;
     color: rgb(34, 96, 230);
 }
+.first2{
+    display: flex;
+    justify-content: center;
+}
+.first2 img{
+    width: 30%;
+    height: fit-content;
+}
 .cluspic1{
-    position: absolute;
-    left: 20rem;
-    top: 300rem;
-    height: 360px;
-    width: 500px;
+    margin-right: 7%;
 }
 .below-pic1{
-    position: absolute;
-    left: 20rem;
-    top: 323rem;
+    margin-left: 10%;
 }
-.cluspic2{
-    position: absolute;
-    right: 30rem;
-    top: 300rem;
-    height: 360px;
-    width: 500px;
+.first2-1{
+    display: flex;
+    margin-left: 13%;
 }
-.below-pic2{
-    position: absolute;
-    right: 39rem;
-    top: 323rem;
+.last2{
+    display: flex;
+    justify-content: center;
 }
-.cluspic3{
-    position: absolute;
-    left: 20rem;
-    top: 330rem;
-    height: 360px;
-    width: 500px;
+.last2 img{
+    width: 30%;
+    height: fit-content;
 }
-.below-pic3{
-    position: absolute;
-    left: 20rem;
-    top: 353rem;
+.lastpic1{
+    margin-right: 7%;
 }
-.cluspic4{
-    position: absolute;
-    right: 30rem;
-    top: 330rem;
-    height: 360px;
-    width: 500px;
+.last2-2{
+    display: flex;
+    margin-left: 13%;
 }
 .below-pic4{
-    position: absolute;
-    right: 30rem;
-    top: 353rem;
+    margin-left: 5%;
 }
+
 .clusexplain{
-    position: absolute;
-    left: 10rem;
-    top: 359rem;
+    display: flex;
+    margin-left: 10%;
+    margin-right: 5%;
+    margin-top: 5%;
     font-size: larger;
 }
 .Reinforcementlrng{
-    position: absolute;
-    top: 370rem;
-    right: 46%;
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
     color: rgb(34, 96, 230);
 }
-.expllrng1{
-    position: absolute;
-    left: 10rem;
-    top: 376rem;
-    font-size: larger;
-}
-.expllrng1 a{
-    text-decoration: none;
-    color: rgb(34, 96, 230);
-}
-.expllrng2{
-    position: absolute;
-    left: 10rem;
-    top: 383rem;
-    font-size: larger;
+.rainrain{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%;
+    margin-right: 5%;
 }
 .GenerativeAI{
-    position: absolute;
-    top: 395rem;
-    left: 38.5%;
+    display: flex;
+    justify-content: center;
     color: rgb(34, 96, 230);
 }
-.genexplain1{
-    position: absolute;
-    left: 10rem;
-    top: 402rem;
-    font-size: larger;
+.genExplain{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%;
+    margin-right: 10%;
 }
-.genexplain2{
-    position: absolute;
-    left: 10rem;
-    top: 406rem;
-    font-size: larger;
+.listtss{
+    display: flex;
+    margin-left: 10%;
 }
-.genexplain3{
-    position: absolute;
-    left: 10rem;
-    top: 410rem;
-    font-size: larger;
-}
-.list6{
-    position: absolute;
-    left: 13rem;
-    top: 414rem;
-    font-size: larger;
+.listtss li{
+    color: rgb(21, 170, 145);
+    list-style-type: decimal;
 }
 .belowtablee{
-    position: absolute;
-    left: 10rem;
-    top: 432rem;
-    font-size: larger;
+    display: flex;
+    margin-left: 10%;
+    margin-top: 5%;
+    font-size: 100%;
 }
-.s11{
-    left: 10rem;
-    position: absolute;
-    top: 440rem;
+.M-O-E{
+    display: flex;
+    margin-top: 5%;
     color: rgb(34, 96, 230);
-}
-.s1-1{
-    left: 10rem;
-    position: absolute;
-    top: 445rem;
+    margin-left: 10%;
 }
 .s12{
-    left: 30%;
-    position: absolute;
-    top: 440rem;
-    color: rgb(34, 96, 230);
-}
-.s1-2{
-    left: 30%;
-    position: absolute;
-    top: 445rem;
+    margin-left: 17%;
 }
 .s13{
-    left: 60%;
-    position: absolute;
-    top: 440rem;
-    color: rgb(34, 96, 230);
+    margin-left: 33%;
+}
+.s1-1{
+    display: flex;
+}
+.secondd{
+    display: flex;
+    margin-left: 10%;
+}
+.s1-2{
+    margin-left: 12%;
+    display: flex;
 }
 .s1-3{
-    left: 60%;
-    position: absolute;
-    top: 445rem;
+    margin-left: 14%;
+    margin-right: 1%;
+    display: flex;
+    flex-direction: column;
 }
-.s1-3 a{
-    text-decoration: none;
-}
-.Text-to-image{
-    left: 10rem;
-    position: absolute;
-    top: 456rem;
+.third{
+    display: flex;
+    margin-left: 10%;
 }
 .Text-to-image1{
-    left: 30%;
-    position: absolute;
-    top: 456rem;
+    display: flex;
+    margin-left: 10%;
 }
 .Text-to-image2{
     left: 60%;
@@ -368,95 +338,99 @@ body li{
     height: 150px;
     width: 160px;
 }
+.seperate{
+    display: flex;
+    flex-direction: column;
+}
+.seperate img{
+    display: flex;
+    margin-left: 38%;
+    margin-top: 3%;
+    width: 30%;
+    height: fit-content;
+}
 .Text-to-image-source{
-    left: 60%;
-    position: absolute;
-    top: 466rem;
+    margin-left: 38%;
 }
 .Text-to-image-source a{
     text-decoration: none;
 }
-.Text-to-video{
-    left: 10rem;
-    position: absolute;
-    top: 470rem;
+.fourth{
+    display: flex;
+    margin-left: 10%;
 }
 .Text-to-video1{
-    left: 30%;
-    position: absolute;
-    top: 470rem;
+    margin-left: 10%;
 }
-.Text-to-video2{
-    left: 60%;
-    position: absolute;
-    top: 471rem;
-    height: 149px;
-    width: 160px;
+.inside{
+    display: flex;
+    flex-direction: column;
+    margin-left: 7.5%;
+    margin-top: 2%;
 }
-.Text-to-video3{
-    left: 60%;
-    position: absolute;
-    top: 480.5rem;
+.imagettext{
+    display: flex;
+    margin-left: 10%;
 }
-.Text-to-video3 a{
-    text-decoration: none;
-}
-.Image-to-text{
-    left: 10rem;
-    position: absolute;
-    top: 485rem;
-}
-.Image-to-text1{
-    left: 30%;
-    position: absolute;
-    top: 486rem;
-}
-.Image-to-text1 a{
-    text-decoration: none;
+.imagettext img{
+    margin-top: 1.5%;
+    margin-left: 10%;
 }
 .Image-to-text2{
-    left: 60%;
-    position: absolute;
-    top: 486rem;
-}
-.Image-to-text2 a{
-    text-decoration: none;
+    margin-left: 25%;
+    margin-top: 6%;
 }
 .generativexpln{
-    left: 10rem;
-    position: absolute;
-    top: 500rem;
+    display: flex;
+    margin-left: 5%;
+    margin-right: 10%;
+    margin-top: 10%;
 }
 .generativelst{
-    left: 12rem;
-    position: absolute;
-    top: 504rem;
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%;
 }
 .Produce{
-    left: 10rem;
-    position: absolute;
-    top: 515rem;
+    display: flex;
+    margin-left: 5%;
+    margin-right: 10%;
 }
 .Generativeexp{
-    left: 10rem;
-    position: absolute;
-    top: 525rem;
+    display: flex;
+    margin-left: 5%;
+    margin-top: 2%;
+    margin-right: 10%;  
 }
-.Previous-link a{
-    left: 20rem;
-    position: absolute;
-    top: 537rem;
-    text-decoration: none;
+.next-previus{
+    display: flex;
+    margin-left: 5%;
+    margin-top: 5%;
+    text-align: center;
 }
-.Previous-link a:hover{
-    scale: 1.2;
+.next-link{
+    margin-left: 60%;
 }
-.next-link a{
-    right: 20rem;
-    position: absolute;
-    top: 537rem;
-    text-decoration: none;
+.footerrz{
+    background-color: aqua;
 }
-.next-link a:hover{
-    scale: 1.2;
+.footerrz th {
+    width: 40%; 
+    text-align: left;
+    height: 60%;
+}
+.tablee{
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+.tablee a{
+    padding-bottom: 10%s;
+}   
+.lastt{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+@media only screen and(max-width:00 /*Check and resolution settings bwas!!*/){
+    
 }

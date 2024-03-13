@@ -1,0 +1,159 @@
+body{
+    background-color: aliceblue;
+}
+body a{
+    text-decoration: none;
+}
+.logo{
+    display: flex;
+}
+.logo a:hover{
+    color: rgb(84, 16, 105);
+}
+.MachineLearningCrashCourse{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-family:sans-serif;
+}
+.MachineLearningCrashCourse h1{
+    font-weight: lighter;
+}
+.buttons{
+    display: flex;
+    margin-top: 3%;
+}
+.xx{
+    display: flex;
+    margin-left: 35%;
+    margin-bottom: 3%;
+}
+.xx1{
+    display: flex;
+    margin-left: 10%;
+    margin-bottom: 3%;
+}
+.btn-blww{
+    background-color: #4078c2;
+    color: white;
+    padding: 1% 2%;
+    border: none;
+    cursor: pointer;
+    padding-right: 5%;
+}
+.btn-blww:hover{
+  scale: 1.1;
+}
+
+.btn-blw{
+  background-color: #4078c2;
+  padding: 1% 2%;
+  color: white;
+  cursor: pointer;
+  border: none;
+  padding-right: 5%;
+}
+.btn-blw:hover{
+  scale: 1.1;
+}
+.pic1{
+    display: flex;
+}
+.pic1 img{
+    width: 8%;
+    height: fit-content;
+    margin-top: 5%;
+}
+.a{
+    margin-left: 20%;
+}
+.b{
+    margin-left: 20%;
+}
+.c{
+    margin-left: 20%;
+}
+.wordsbelow{
+    display: flex;
+    font-size: larger;
+}
+.a1{
+    margin-left: 20%;
+    display: flex;
+}
+.a2{
+    margin-left: 21%;
+    display: flex;
+}
+.a3{
+    margin-left: 23%;
+    display: flex;
+}
+.pic1{
+    display: flex;
+    justify-content: center;
+}
+table{
+    width: 80%;
+    text-align: center;
+    margin-right: 9%;
+    font-size: large;
+    margin-top: 5%;
+}
+.pic1 img{
+    width: 30%;
+    height: auto;
+}
+.my{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: larger;
+    margin-top: 5%;
+    background-color: rgb(216, 248, 248);
+}
+.my h1{
+    font-weight: lighter;
+}
+.lasttable{
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    font-size: larger;
+    width: fit-content;
+    margin-left: 2%;
+}
+.last2{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 5%;
+}
+.last2 h1{
+    font-weight: lighter;
+}
+.last2 p{
+    font-size: larger;
+}
+.footerrz{
+    background-color: aqua;
+}
+.footerrz th {
+    width: 40%; 
+    text-align: left;
+    height: 60%;
+}
+.tablee{
+    margin-top: 10%;
+    margin-bottom: 5%;
+    margin-left: 10%;
+
+}
+.tablee a{
+    padding-bottom: 10%s;
+}   
+.lastt{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}

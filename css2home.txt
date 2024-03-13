@@ -1,0 +1,245 @@
+
+body{
+  background-color: aliceblue;
+}
+.Browseourtech{
+  position: absolute;
+  left: 10rem;
+  top: 35rem; 
+  font-size: xx-large;
+  font-family: cursive;
+
+}
+.newaimodellink{
+  text-decoration: none;
+}
+.safetyinstoragelink{
+  text-decoration: none;
+}
+.newchallengeslink{
+  text-decoration: none;
+}
+.fromourflagship{
+  position: absolute; 
+  top: 37rem; 
+  font-family:monospace; 
+  font-size: 20px; 
+  left: 50rem;
+}
+.hybridcloud{
+  text-decoration: none;
+}
+.programmerss{
+  padding-left: 7rem;
+}
+.norman{
+  text-decoration: none;
+}
+.norman-img{
+  height: 10rem; 
+  width: 10rem;
+  border-radius: 6rem;
+}
+.p-norman{
+  text-align: center;
+}
+.navbar{
+    margin-right: 20px;
+    position: absolute;
+}
+.c1a{
+  top: 1px;
+  text-decoration: none;
+  position: absolute; 
+  color: rgb(34, 96, 230); 
+}
+.c11{
+  text-decoration: none;
+  font-size: large;
+  font-family: cursive;
+  color: rgb(41, 127, 240);
+  position: absolute;
+  text-decoration: none; 
+  top: 2.2rem;
+  left: 600px;
+}
+.c12{
+  text-decoration: none;
+  font-size: large;
+  font-family: cursive;
+  color: rgb(41, 127, 240);
+  text-decoration: none; 
+  position: absolute; 
+  left: 900px; 
+  top: 2.2rem;
+}
+.c13{
+  text-decoration: none;
+  font-size: large;
+  font-family: cursive;
+  color: rgb(41, 127, 240);
+  text-decoration: none; 
+  position: absolute; 
+  left: 1200px; 
+  top: 2.2rem;
+}
+.ff {
+  position: absolute;
+  right: 25rem;
+  top: 7rem;
+  height: 420px; 
+  width: 830px; 
+}
+.ww{
+  position: relative;
+  font-size: 40%;
+  font-family:fantasy;
+  top: 4%;
+  left: 6%;
+  color: rgb(41, 127, 240);
+}
+.wwe{
+  position: absolute;
+  font-size: 40px;
+  font-family:fantasy;
+  top: 7rem;
+  left: 6rem;
+  color: rgb(41, 127, 240);
+}
+.xx{
+  position: absolute;
+  top: 20rem;
+  left: 6rem;
+  font-size: 25px;
+  font-family: monospace;
+}
+.btn-blww{
+  position: absolute;
+  left: 6rem;
+  top: 30rem;
+  background-color: #095ece;
+  color: white;
+  padding: 10px 30px;
+  border: none;
+  cursor: pointer;
+  padding-right: 60px;
+}
+.btn-blww:hover{
+  scale: 1.1;
+}
+
+.btn-blw{
+  position: absolute;
+  left: 18rem;
+  top: 30rem;
+  background-color: #095ece;
+  padding: 10px 30px;
+  color: white;
+  cursor: pointer;
+  border: none;
+  padding-right: 60px;
+}
+.btn-blw:hover{
+  scale: 1.1;
+}
+.theleft{
+  position: absolute;
+  right: 13rem;
+  top: 5rem;
+  color: #095ece;
+}
+.kko{
+  position: absolute;
+  left: 15rem;
+  top: 65rem;
+  cursor: pointer;
+}
+.a1 {
+  width: 15rem;
+  margin-left: 8rem;
+  border: none;
+  border-radius: 30%;
+  background-color: rgb(113, 243, 243);
+}
+.a1:hover{
+  scale: 1.1;
+}
+.a2 {
+  width: 15rem;
+  border: none;
+  border-radius: 30%;
+  background-color: rgb(66, 175, 226);
+}
+.a2:hover{
+  scale: 1.1;
+}
+.a3 {
+  width: 15rem;
+  border: none;
+  border-radius: 30%;
+  background-color: rgb(64, 135, 241);
+}
+.a3:hover{
+  scale: 1.1;
+}
+.a4 {
+  width: 15rem;
+  border: none;
+  border-radius: 30%;
+  background-color: rgb(104, 156, 233);
+}
+.a4:hover{
+  scale: 1.1;
+}
+.a5 {
+  width: 15rem;
+  border: none;
+  border-radius: 30%;
+  background-color: rgb(122, 238, 238);
+}
+.a5:hover{
+  scale: 1.1;
+}
+.cntlnk1{
+  position: absolute; 
+  left: 50rem; 
+  top: 45rem; 
+  font-family: monospace; 
+  font-size: 20px;
+  text-decoration: none;
+  color: #095ece;
+}
+.cntlnk1:hover{
+  scale: 1.1;
+}
+.cntlnk2{
+  position: absolute; 
+  left: 50rem; 
+  top: 47rem; 
+  font-family: monospace; 
+  font-size: 20px; 
+  text-decoration: none;
+  color: #095ece;;
+}
+.cntlnk2:hover{
+  scale: 1.1;
+}
+.lastt{
+  position: absolute;
+  top: 100rem;
+}
+.tablee{
+  position: absolute;
+  top: 100rem;
+  left: 23rem;
+  text-align: left;
+  width: 90rem;
+  padding-bottom: 10rem;
+}
+.tablee a{
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: monospace;
+  font-size: larger;
+  font-weight:900;
+}

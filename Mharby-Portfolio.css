@@ -1,114 +1,137 @@
 body{
+    color: rgb(34, 96, 230);
     background-color: aliceblue;
 }
+body a{
+    text-decoration: none;
+}
+.picname{
+    padding-top: 5%;
+    display: flex;
+}
 .namee{
+    display: flex;
+    padding-left: 7%;
+    font-size: 300%;
     color: rgb(154, 48, 224);
 }
-.topp{
-    position: relative;
-    text-align: left;
-    left: 25rem;
-    top: 5rem;
-}
 .Picture{
-    position:absolute;
-    top: 10rem;
-    right: 39rem;
-    height: 135px;
-    width: 135px;
-    border-radius: 100px;
+    display: flex;
+    width: 10%;
+    border-radius: 80%;
+    margin-left: 30%;
 }
-.hlgthr{
-    position: absolute;
-    left: 25.4rem;
-    color: rgb(11, 108, 219);
+.topp{
+    display: flex;
+    flex-direction: column;
+    margin-left: 7%;
+}
+.expskll{
+    display: flex;
+    margin-top: 5%;
+}
+.EXPERIENCE{
+    margin-left: 15%;
+}
+.SKILLS{
+    margin-left: 45%;
 }
 .xprnc{
-    position: absolute;
-    top: 27rem;
-    left: 25.4rem;
+    display: flex;
 }
-.smallslash{
-    color: red;
-    font-size: large;
-}
-.educ{
-    position: absolute;
-    top: 42rem;
-    left: 25.4rem;
-}
-.proj{
-    position: absolute;
-    top: 62rem;
-    left: 25.4rem;
+.exp{
+    display: flex;
+    flex-direction: column;
+    padding-left: 5%;
 }
 .skills{
-    position: absolute;
-    top: 27rem;
-    right: 34rem;
+    display: flex;
+    flex-direction: column;
+    padding-left: 27%;
 }
 .skills li{
     color: rgb(221, 98, 16);
 }
-.rightt{
-    position: absolute;
-    right: 41rem;
-    color: rgb(11, 108, 219);
+.EduLang{
+    display: flex;
+    margin-top: 5%;
 }
-.ww{
-    position: absolute;
-    right: 39rem;
-    color: rgb(11, 108, 219);
+.EDUCATION{
+    display: flex;
+    flex-direction: column;
+    padding-left: 10%;
+}
+.LANGUAGES{
+    display: flex;
+    flex-direction: column;
+    padding-left: 49%;
+}
+.langued{
+    display: flex;
+    padding-top: 1%;
+}
+.educ{
+    display: flex;
+    margin-left: 5%;
+    flex-direction: column;
 }
 .lang{
-    position: absolute;
-    top: 45rem;
-    right: 44rem;
+    display: flex;
+    margin-left: 22.5%;
 }
-.lang li{
+.langedu{
+    display: flex;
+    margin-top: 1%;
+}
+.lang{
+    display: flex;
+    flex-direction: column;
+}
+.mains{
+    display: flex;
+    margin-top: 5%;
+}
+.PROJECTS{
+    display: flex;
+    margin-left: 10%;
+}
+.projlink-p{
+    display: flex;
+    margin-left: 50%;
+    color: rgb(11, 108, 219);
+}
+.projects1{
+    display: flex;
+    margin-top: 3%s;
+}
+.proj{
+    display: flex;
+    flex-direction: column;
+    margin-left: 5%;
+}
+.proj-links{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20%;
+}
+.proj-links li a{
     color: rgb(221, 98, 16);
+}
+.lastw{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%;
+    margin-bottom: 15%;
+    margin-top: 15%;
+    color: rgb(11, 108, 219);
+}
+.smallslash{
+    color: red;
+    font-size: large;
 }
 .bglttrs{
     color: rgb(248, 97, 142);
 }
 .subs{
     color: rgb(41, 27, 238);
-}
-.projlink-p{
-    position: absolute;
-    right: 38.5rem;
-    color: rgb(11, 108, 219);
-    top: 54rem;
-}
-.proj-links{
-    position: absolute;
-    top: 56rem;
-    right: 25rem;
-}
-.proj-links li {
-    text-decoration: none;
-    color: rgb(221, 98, 16);
-}
-.proj-links li a{
-    text-decoration: none;
-    color: rgb(221, 98, 16);
-}
-.lastw{
-    position: absolute;
-    top: 65rem;
-    right: 38rem;
-    color: rgb(11, 108, 219);
-}
-.social-links{
-    position: absolute;
-    top: 68rem;
-    right: 41rem;
-}
-.social-links li {
-    text-decoration: none;
-    color: rgb(221, 98, 16);
-}
-.social-links li a{
-    text-decoration: none;
-    color: rgb(221, 98, 16);
 }

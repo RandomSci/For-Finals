@@ -1,0 +1,118 @@
+body{
+    background-color: aliceblue;
+}
+body a{
+    text-decoration: none;
+}
+.logo{
+    font-size: 60%;
+    position: relative;
+    margin-right: 42%;
+    display: flex;
+}
+.programmerss{
+    margin-top: 10%;
+    color: rgb(22,21,124);
+    text-align: center;
+}
+.kko{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.a1{
+    display: flex;
+    height: 30%;
+    width:20%;
+    border-top-right-radius: 15%;
+    border-top-left-radius: 45%;
+    border-bottom-right-radius: 40%;
+    border: none;
+}
+.a1 img{
+    display: flex;
+    height: 30%;
+    width: 30%;
+    border-radius: 100%;
+}
+.a2{
+    display: flex;
+    height: 30%;
+    width:20%;
+    border-top-right-radius: 5%;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 5%;
+    border-bottom-right-radius: 50%;
+    border: none;
+}
+.a2 img{
+    display: flex;
+    height: 30%;
+    width: 30%;
+    border-radius: 100%;
+}
+.a3{
+    display: flex;
+    height: 30%;
+    width:20%;
+    border-radius: 100%;
+    border: none;
+}
+.a3 img{
+    display: flex;
+    height: 30%;
+    width: 30%;
+    border-radius: 100%;
+}
+.a4{
+    display: flex;
+    height: 30%;
+    width:20%;
+    border-top-left-radius: 5%;
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 5%;
+    border-bottom-left-radius: 50%;
+    border: none;
+}
+.a4 img{
+    display: flex;
+    height: 30%;
+    width: 30%;
+    border-radius: 100%;
+}
+.a5{
+    display: flex;
+    height: 30%;
+    width:20%;
+    border-top-left-radius: 15%;
+    border-top-right-radius: 45%;
+    border-bottom-left-radius: 40%;
+    border: none;
+}
+.a5 img{
+    display: flex;
+    height: 30%;
+    width: 30%;
+    border-radius: 100%;
+}
+.footerrz{
+    background-color: aqua;
+}
+.footerrz th {
+    width: 40%; 
+    text-align: left;
+    height: 60%;
+}
+.tablee{
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+.tablee a{
+    padding-bottom: 10%s;
+}   
+.lastt{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}

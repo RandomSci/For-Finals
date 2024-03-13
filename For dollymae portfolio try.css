@@ -1,0 +1,62 @@
+For dollymae portfolio try
+
+body{
+    color: rgb(34, 96, 230);
+    background-color: aliceblue;
+}
+body a{
+    text-decoration: none;
+}
+.namee{
+    display: flex;
+    margin-left: 14%;
+    margin-top: 5%;
+}
+.topp{
+    position: relative;
+    margin-left: 14%;
+    display: flex;
+    flex-direction: column;
+    top: 1%;
+}
+.Picture{
+    width: 40%;
+    height: 30%;
+    display: flex;
+    margin-left: 30%;
+    border-radius: 30%;
+}
+.EXPERIENCE{
+    display: flex;
+    padding-left: 15%;
+    padding-top: 5%;
+}
+.xprnc{
+    display: flex;
+    flex-direction: column;
+    padding-left: 5%;
+}
+.EDUCATION{
+    display: flex;
+    padding-left: 15%;
+    padding-top: 5%;
+}
+.educ{
+    display: flex;
+    flex-direction: column;
+    padding-left: 5%;
+}
+.PROJECTS{
+    display: flex;
+    padding-left: 15%;
+    padding-top: 5%;
+}
+.proj{
+    display: flex;
+    flex-direction: column;
+    padding-left: 5%;
+}
+.SKILLS{
+    display: flex;
+    justify-content: end;
+}
