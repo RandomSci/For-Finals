@@ -120,7 +120,7 @@ body button:hover{
     color: rgb(201, 31, 136);
 }
 .footerrz{
-    background-color: rgb(200, 235, 235)aqua;
+    background-color: rgb(200, 235, 235);
 }
 .footerrz th {
     width: 40%; 
@@ -133,7 +133,12 @@ body button:hover{
     margin-left: 10%;
 }
 .tablee a{
-    padding-bottom: 10%;
+    padding-bottom: 10%s;
+}   
+.lastt{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
 }
 @media only screen and(max-width:00 /*Check and resolution settings bwas!!*/){
 
