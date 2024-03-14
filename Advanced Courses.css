@@ -130,12 +130,7 @@ body button:hover{
     margin-left: 10%;
 }
 .tablee a{
-    padding-bottom: 10%s;
-}   
-.lastt{
-    display: flex;
-    flex-direction: column;
-    text-align: center;
+    padding-bottom: 10%;
 }
 @media only screen and(max-width:00 /*Check and resolution settings bwas!!*/){
 

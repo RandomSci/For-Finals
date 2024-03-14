@@ -4,49 +4,30 @@ body{
 body a{
     text-decoration: none;
 }
-.top{
+.navbar{
     display: flex;
-}
-.centerlinks{
-    display: flex;
-    margin-left: 20%;
-    text-align: center;
-    margin-top: 2%;
-}
-.s3{
-    margin-left: 15%;
-}
-.s2{
-    margin-left: 15%;
+    flex-wrap: wrap; 
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #f0f0f0;
 }
 
-.s{
-    margin-left: 24%;
-    margin-top: 2%;
+.navbar a {
+    text-decoration: none;
+    color: rgb(34, 96, 230);
 }
-.btns1{
-    font-size: larger;
-    border-top-right-radius: 80%;
-    border-top-left-radius: 80%;
-    border-bottom-left-radius: 80%;
-    border-bottom-right-radius: 10%;
-    background-color: aliceblue;
+
+.loginsignoutlinks{
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 10px; 
 }
-.btns1_1{
-    font-size: larger;
-    border-top-right-radius: 80%;
-    border-top-left-radius: 80%;
-    border-bottom-left-radius: 10%;
-    border-bottom-right-radius: 80%;
-    background-color: aliceblue;
+
+.loginsignoutlinks a{
+    margin-left: 10px;
 }
-button:hover{
-    background: black;
-    scale: 1.1;
-}
-.login:hover, .signup:hover{
-    color: white;
-}
+
 .vvc{
     display: flex;
     justify-content: center;
@@ -152,3 +133,36 @@ button:hover{
     flex-direction: column;
     text-align: center;
 }
+@media only screen and (max-width: 375px) {
+  .navbar {
+    margin-right: 10px; 
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .c1a, .c11, .c12, .c13 {
+    display: block;
+    margin: 10px 0;
+  }
+
+  .ff {
+    right: auto;
+    top: auto;
+    height: auto;
+  }
+
+  .ww, .wwe, .xx, .btn-blww, .btn-blw, .theleft, .kko, .cntlnk1, .cntlnk2, .lastt, .tablee {
+    position: static;
+    display: block;
+    text-align: center;
+    margin: 10px auto;
+  }
+
+  .tablee {
+    width: 90%; 
+    left: 5%; 
+  }
+}
+  
