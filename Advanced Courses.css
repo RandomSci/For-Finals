@@ -99,7 +99,6 @@ body button:hover{
 }
 .fourtosix button, .first3 button{
     border: none;
-    background-color: transparent;
 }
 .aa { /* For h1's in buttons*/
     text-align: left;
