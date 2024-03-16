@@ -59,6 +59,8 @@ body button:hover{
 .first3{
     display: flex;
     justify-items: center;
+    margin-left: 5%;
+    width: fit-content;
 }
 .first3 button{
     border: none;
@@ -85,7 +87,6 @@ body button:hover{
 .fourtosix img{
     display: flex;
     width: 100%;
-    border-color: aliceblue;
 }
 .fourtosix a{
     display: flex;
@@ -94,9 +95,11 @@ body button:hover{
     display: flex;
     justify-items: center;
     margin-top: 5%;
+    margin-left: 5%;
 }
-.fourtosix button{
+.fourtosix button, .first3 button{
     border: none;
+    background-color: transparent;
 }
 .aa { /* For h1's in buttons*/
     text-align: left;
@@ -132,6 +135,34 @@ body button:hover{
 .tablee a{
     padding-bottom: 10%;
 }
-@media only screen and(max-width:00 /*Check and resolution settings bwas!!*/){
-
+@media only screen and (max-width: 820px){
+    body{
+        text-align: center;
+    }
+    .topmiddle{
+        display: flex;
+        flex-direction: column;
+        font-size:x-small;
+    }
+    .firstt-p{
+        margin: 0 10%;
+        text-align: left;
+        font-size: small;
+    }
+    .first3{
+        display: flex;
+        margin: 5% 3%;
+    }
+    .first3 button, .fourtosix button{
+        background-color: transparent;
+    }
+    .aa{
+        font-size: smaller;
+    }
+    .p-a1, .nn{
+        font-size: x-small;
+    }
+    .footerrz{
+        font-size: xx-small;
+    }
 }
