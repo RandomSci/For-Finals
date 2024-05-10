@@ -153,7 +153,7 @@ body a{
     height: auto;
   }
 
-  .ww, .wwe, .xx, .btn-blww, .btn-blw, .theleft, .kko, .cntlnk1, .cntlnk2, .lastt, .tablee {
+  .ww, .wwe, .xx, .btn-blww, .btn-blw, .theleft, .kko, .cntlnk1, .cntlnk2, .lastt {
     position: static;
     display: block;
     text-align: center;
@@ -163,6 +163,10 @@ body a{
   .tablee {
     width: 90%; 
     left: 5%; 
+    position: static;
+    display: block;
+    text-align: center;
+    margin: 10px auto
   }
 }
   
