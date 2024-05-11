@@ -153,7 +153,62 @@ body a{
     height: auto;
   }
 
-  .ww, .wwe, .xx, .btn-blww, .btn-blw, .theleft, .kko, .cntlnk1, .cntlnk2, .lastt {
+  .ww{
+    position: static;
+    display: block;
+    text-align: center;
+    margin: 10px auto;
+  }
+  .cntlnk2{
+    position: static;
+    display: block;
+    text-align: center;
+    margin: 10px auto;
+  }
+  .cntlnk1{
+    position: static;
+    display: block;
+    text-align: center;
+    margin: 10px auto;
+  }
+  .kko{
+    position: static;
+    display: block;
+    text-align: center;
+    margin: 10px auto;
+  }
+  .theleft{
+    position: static;
+    display: block;
+    text-align: center;
+    margin: 10px auto;
+  }
+  .btn-blw{
+    position: static;
+    display: block;
+    text-align: center;
+    margin: 10px auto;
+  }
+  .btn-blww{
+    position: static;
+    display: block;
+    text-align: center;
+    margin: 10px auto;
+  }
+  .xx{
+    position: static;
+    display: block;
+    text-align: center;
+    margin: 10px auto;
+  }
+  .wwe{
+    position: static;
+    display: block;
+    text-align: center;
+    margin: 10px auto;
+  }
+
+  .lastt{
     position: static;
     display: block;
     text-align: center;
