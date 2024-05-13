@@ -1,6 +1,6 @@
 /* Body section */
 body{ 
-    background-color: aliceblue; /* Changes background color of the body */
+    background-color: aliceblue; 
 }
 
 /* All links inside the body section */
@@ -10,241 +10,241 @@ body a{
 
 /* <div class="navbar"> SECTION */
 .navbar{ 
-    display: flex; /* Uses flexbox layout */
-    flex-wrap: wrap; /* Allows items to wrap to the next line if there's not enough space */
-    justify-content: space-between; /* Aligns items with space between them */
-    align-items: center; /* Centers items vertically */
-    padding: 10px; /* Adds padding around navbar */
-    background-color: #f0f0f0; /* Sets background color for navbar */
+    display: flex; 
+    flex-wrap: wrap;  
+    justify-content: space-between;  
+    align-items: center; 
+    padding: 10px;  
+    background-color: #f0f0f0;  
 }
 
 /* <div class="navbar"> LINKS */
 .navbar a { 
-    text-decoration: none; /* Removes underline from navbar links */
-    color: rgb(34, 96, 230); /* Sets color for navbar links */
+    text-decoration: none; 
+    color: rgb(34, 96, 230);  
 }
 
 /* login & Sign In */
 .loginsignoutlinks{ 
-    display: flex; /* Uses flexbox layout */
+    display: flex;  
     flex-wrap: wrap; 
-    gap: 10px; /* Sets gap between login and sign in links */
+    gap: 10px;  
 }
 
 /* login & Sign In LINKS */
 .loginsignoutlinks{ 
-    margin-left: 10px; /* Sets left margin for login and sign in links */
+    margin-left: 10px;  
 }
 
 /* Latest Updates section */
 .vvc{ 
-    display: flex; /* Uses flexbox layout */
-    justify-content: center; /* Centers horizontally */
-    text-align: center; /* Centers text */
-    margin-top: 5%; /* Sets top margin */
-    color: rgb(41, 127, 240); /* Sets color for latest updates section */
-    font-size: 200%; /* Sets font size for latest updates section */
+    display: flex;  
+    justify-content: center;  
+    text-align: center; 
+    margin-top: 5%;  
+    color: rgb(41, 127, 240);  
+    font-size: 200%;  
 }
 
 /* New AI model section */
 .theleft{ 
-    display: flex; /* Uses flexbox layout */
-    justify-content: center; /* Centers horizontally */
-    margin-top: 3%; /* Sets top margin */
-    margin-left: 6.5%; /* Sets left margin */
+    display: flex;  
+    justify-content: center;  
+    margin-top: 3%;  
+    margin-left: 6.5%;  
 }
 
 /* New AI model section */
 .theleft sup{ 
-    color: rgb(41, 127, 240); /* Sets color for superscript in new AI model section */
-    font-size: large; /* Sets font size for superscript in new AI model section */
+    color: rgb(41, 127, 240);  
+    font-size: large;  
 }
 
 /* Safety in storage & New Challenges section */
 .theleft2{ 
-    margin-right: 10%; /* Sets right margin */
-    margin-left: 20%; /* Sets left margin */
+    margin-right: 10%; 
+    margin-left: 20%;  
 }
 
 /* Now available: & Artificial Intellegence Course section */
 .LEFT p{ 
-    color: blue; /* Sets color for certain paragraphs */
-    font-size: x-large; /* Sets font size for certain paragraphs */
-    margin-left: 10%; /* Sets left margin for certain paragraphs */
+    color: blue;  
+    font-size: x-large;  
+    margin-left: 10%; 
 }
 
 /* video section */
 .ff{ 
-    height: 50%; /* Sets height */
-    width: 80%; /* Sets width */
-    display: flex; /* Uses flexbox layout */
-    margin-left: 13%; /* Sets left margin */
+    height: 50%;  
+    width: 80%;  
+    display: flex;  
+    margin-left: 13%; 
 }
 
 /* <p class="ppa">Accelerate responsible, ... section */
 .ppa{ 
-    font-size: larger; /* Sets font size for certain paragraph */
-    color: rgb(22, 21, 124); /* Sets color for certain paragraph */
-    margin-left: 15%; /* Sets left margin for certain paragraph */
+    font-size: larger;  
+    color: rgb(22, 21, 124);  
+    margin-left: 15%;  
 }
 
 /* Try for free & View product details section */
 .xx{ 
-    display: flex; /* Uses flexbox layout */
-    font-size: larger; /* Sets font size */
-    margin-left: 20%; /* Sets left margin */
-    margin-bottom: 3%; /* Sets bottom margin */
+    display: flex;  
+    font-size: larger; 
+    margin-left: 20%; 
+    margin-bottom: 3%;  
 }
 
 /* Try for free button */
 .btn-blww{  
-    background-color: #095ece; /* Sets background color for "Try for free" button */
-    color: white; /* Sets text color for "Try for free" button */
-    padding: 1% 2%; /* Adds padding */
-    border: none; /* Removes border */
-    cursor: pointer; /* Changes cursor to pointer */
-    padding-right: 5%; /* Adds right padding */
+    background-color: #095ece;  
+    color: white;  
+    padding: 1% 2%;  
+    border: none;  
+    cursor: pointer;  
+    padding-right: 5%;  
 }
 
 /* Hover effect for Try for free button */
 .btn-blww:hover{ 
-  scale: 1.1; /* Applies scale effect on hover for "Try for free" button */
+  scale: 1.1;  
 }
 
 /* View product details button */
 .btn-blw{ 
-  background-color: #095ece; /* Sets background color for "View product details" button */
-  padding: 1% 2%; /* Adds padding */
-  color: white; /* Sets text color for "View product details" button */
-  cursor: pointer; /* Changes cursor to pointer */
-  border: none; /* Removes border */
-  padding-right: 5%; /* Adds right padding */
+  background-color: #095ece;  
+  padding: 1% 2%;  
+  color: white;  
+  cursor: pointer; 
+  border: none; 
+  padding-right: 5%;  
 }
 
 /* Hover effect for View product details button */
 .btn-blw:hover{ 
-  scale: 1.1; /* Applies scale effect on hover for "View product details" button */
+  scale: 1.1;  
 }
 
 /* Browse our technology section */
 .Browseourtech{ 
-    text-align: center; /* Centers text */
-    color: rgb(22, 21, 124); /* Sets color */
-    margin-top: 15%; /* Sets top margin */
-    font-size: xx-large; /* Sets font size */
+    text-align: center;  
+    color: rgb(22, 21, 124);  
+    margin-top: 15%;  
+    font-size: xx-large;  
 }
 
 /* <p class="fromourflagship">From our flagship products for enterprise... section */
 .fromourflagship{ 
-    text-align: center; /* Centers text */
+    text-align: center;  
 }
 
 /* <footer class="footerrz"> section */
 .footerrz{ 
-    background-color: rgb(200, 235, 235); /* Sets background color */
+    background-color: rgb(200, 235, 235);  
 }
 
 /* Table Heads in footer section */
 .footerrz th { 
-    width: 40%; /* Sets width */
-    text-align: left; /* Aligns text to the left */
-    height: 60%; /* Sets height */
+    width: 40%;   
+    text-align: left;  
+    height: 60%; 
 }
 
 /* <table class="tablee"> section */
 .tablee{ 
-    margin-top: 10%; /* Sets top margin */
-    margin-bottom: 5%; /* Sets bottom margin */
-    margin-left: 10%; /* Sets left margin */
+    margin-top: 10%; 
+    margin-bottom: 5%;  
+    margin-left: 10%; 
 }
 
 /* Links inside the table */
 .tablee a{ 
-    padding-bottom: 10%s; /* Sets padding */
+    padding-bottom: 10%s; 
 }   
 
 /* Privacy Policy, Terms of Service & copyright section */
 .lastt{ 
-    display: flex; /* Uses flexbox layout */
-    flex-direction: column; /* Sets flex direction to column */
-    text-align: center; /* Centers text */
+    display: flex;  
+    flex-direction: column; 
+    text-align: center; 
 }
 
 /* For screens that has maximum width of 375 pixels */
 @media only screen and (max-width: 375px) { 
   /* <div class="navbar"> section */
   .navbar { 
-    margin-right: 10px; /* Sets right margin */
-    position: relative; /* Sets position to relative */
-    display: flex; /* Uses flexbox layout */
-    flex-direction: column; /* Sets flex direction to column */
-    align-items: center; /* Centers items vertically */
+    margin-right: 10px;  
+    position: relative;  
+    display: flex;  
+    flex-direction: column;  
+    align-items: center;  
   }
 
   /* Home.html, Foundational.html, Advanced Courses.html, Guides.html */
   .c1a, .c11, .c12, .c13 { 
-    display: block; /* Displays as block */
-    margin: 10px 0; /* Sets margin */
+    display: block;  
+    margin: 10px 0;  
   }
 
   /* video section */
   .ff {  
-    right: auto; /* Sets right to auto */
-    top: auto; /* Sets top to auto */
-    height: auto; /* Sets height to auto */
+    right: auto; 
+    top: auto;  
+    height: auto; 
   }
   
   /* For portfolios section */
   .kko{ 
-    position: static; /* Sets position to static */
-    display: block; /* Displays as block */
-    text-align: center; /* Centers text */
-    margin: 10px auto; /* Centers elements */
+    position: static;  
+    display: block;  
+    text-align: center;  
+    margin: 10px auto; 
   }
   /* New AI model section */
   .theleft{  
-    position: static; /* Sets position to static */
-    display: block; /* Displays as block */
-    text-align: center; /* Centers text */
-    margin: 10px auto; /* Centers elements */
+    position: static; 
+    display: block; 
+    text-align: center;  
+    margin: 10px auto;  
   }
   /* View product details button */
   .btn-blw{ 
-    position: static; /* Sets position to static */
-    display: block; /* Displays as block */
-    text-align: center; /* Centers text */
-    margin: 10px auto; /* Centers elements */
+    position: static;  
+    display: block;  
+    text-align: center;  
+    margin: 10px auto;  
   }
   /* Try for free button */
   .btn-blww{  
-    position: static; /* Sets position to static */
-    display: block; /* Displays as block */
-    text-align: center; /* Centers text */
-    margin: 10px auto; /* Centers elements */
+    position: static; 
+    display: block;  
+    text-align: center;  
+    margin: 10px auto;  
   }
   /* Try for free & View product details section */
   .xx{ 
-    position: static; /* Sets position to static */
-    display: block; /* Displays as block */
-    text-align: center; /* Centers text */
-    margin: 10px auto; /* Centers elements */
+    position: static;  
+    display: block;  
+    text-align: center; 
+    margin: 10px auto;  
   }
  
   /* Privacy Policy, Terms of Service & copyright section */
   .lastt{ 
-    position: static; /* Sets position to static */
-    display: block; /* Displays as block */
-    text-align: center; /* Centers text */
-    margin: 10px auto; /* Centers elements */
+    position: static;  
+    display: block; 
+    text-align: center;  
+    margin: 10px auto;  
   }
 
   /* <table class="tablee"> section */
   .tablee { 
-    width: 90%; /* Sets width */
-    left: 5%; /* Sets left */
-    position: static; /* Sets position to static */
-    display: block; /* Displays as block */
-    text-align: center; /* Centers text */
-    margin: 10px auto; /* Centers elements */
+    width: 90%;  
+    left: 5%;  
+    position: static; 
+    display: block;  
+    text-align: center;  
+    margin: 10px auto;  
   }
 }
